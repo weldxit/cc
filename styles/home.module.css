@@ -1,0 +1,31 @@
+.homepage{
+    padding: 0 5rem;
+position: relative;
+height: max-content;
+width: auto;
+}
+
+.homepage_front{
+    padding: 0 7rem;
+    position: relative;
+    height: 80vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.call{
+    border: 1px solid rgb(42, 81, 174);
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    width: 19ch;
+    height: 5ch;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}

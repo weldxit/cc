@@ -1,0 +1,71 @@
+.service{
+    position: relative;
+    padding: 0 5rem;
+    height: max-content;
+}
+
+.service_text{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.service_text_h1{
+color: black;
+font-size: 1.3rem;
+
+}
+.service_text_p{
+color: black;
+font-size: 0.9rem;
+}
+
+
+
+
+
+.service_items{
+position: relative;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+justify-items: center;
+column-gap: 0;
+row-gap: 5rem;
+}
+.service_card{
+    position: relative;
+    height: 31vh;
+    width: 75vh;
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+   
+    
+}
+
+.service_card_text{
+    display: flex;
+    flex-direction:column ;
+    justify-content: flex-start;
+}
+
+.service_card_h1{
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+}
+
+.service_card_p{
+   width: 37vh;
+   margin: 0;
+   padding: 0;
+   font-size: 0.9rem;
+}
+
+.service_card_image{
+    position: relative;
+    width: 35vh;
+    height:31vh;
+    flex: 1;
+}
