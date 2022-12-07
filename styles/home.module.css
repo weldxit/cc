@@ -1,8 +1,9 @@
 .homepage{
     padding: 0 5rem;
 position: relative;
-height: max-content;
+height: 100vh;
 width: auto;
+background-image: linear-gradient(160deg, green , white , orange);
 }
 
 .homepage_front{
@@ -14,6 +15,10 @@ width: auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.homepage_front_h1{
+    font-size: 3rem;
 }
 
 .call{
@@ -28,4 +33,5 @@ width: auto;
     font-weight: 700;
     margin: 0;
     padding: 0;
+    cursor: pointer;
 }

@@ -1,16 +1,19 @@
 import React from "react";
 import Link from "next/link";
-
+import style from '../styles/layout.module.css'
 
 const Layout = (props) => {
   return (
   <div>
-    <div>
-      <li><Link href={'/Home'}>Home</Link></li>
-      <li><Link href={'/Services'}>Services</Link></li>
-      <li><Link href={'/Project'}>Project</Link></li>
-      <li><Link href={'/About'}>About</Link></li>
-      <li><Link href={'/Contact'}>Contact</Link></li>
+    <div className={style.navbar}>
+      <div className={style.logo}>LOGO</div>
+      <div className={style.navcontainer}>
+    <Link href={'/Home'} className={style.navbutton} >Home</Link>
+      <Link href={'/Services'} className={style.navbutton}>Services</Link>
+      <Link href={'/Gallery'} className={style.navbutton}>Gallery</Link>
+      <Link href={'/About'} className={style.navbutton}>About</Link>
+      <Link href={'/Contact'} className={style.navbutton}>Contact</Link>
+    </div>
     </div>
 
 

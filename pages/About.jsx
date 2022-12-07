@@ -1,31 +1,62 @@
-import React, { Component } from 'react';
-import Layout from './Layout';
+import React, { Component } from "react";
+import Layout from "./Layout";
+import style from "../styles/about.module.css";
+import Image from "next/image";
+export default function About() {
+  return (
+    <Layout>
+      <div className={style.about}>
+        <div className={style.about_text}>
+          <h1 className={style.about_text_h1}>About Us</h1>
+          <p className={style.about_text_p}>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque,
+            vitae. Commodi sapiente, maxime cumque placeat odit ad rerum
+            voluptates. Dicta voluptate laudantium ab perferendis magni,
+            voluptates assumenda ut veniam numquam.
+          </p>
+        </div>
 
-export default function About () {
-   
-        return (
-            <Layout>
-            <div>
-                <h1>About The</h1>
-                <p>
-                    <h2>What Should I Do</h2>
-                    If i learn next js today then again one day will go waste on learning, with one day without any prductivity.
-                    <br />
-                    It will feel like i am wasting time, because i need to give productivity. I need to prove myself that i am capable of anything.
-                    <br />
-                    If i do start developing of chasicare and weldx then report it at the end of day, it won't be a satisfactory feeling because it's my personal task and i should make it internally.
-                    <br />
-                    The focus is on E-mandi website and app, emandi website is being handled by other, and the app as well, until the full website is not complete i can not inspect the code and make changes to it for the production, because it will be difficult to add those one by one instead of once.
-                    <br />
-                    If i do marble and tile review then it is not in plate for now.
-                    <br />
-                    I think i should make a quiver design layout, while they are developing the emandi, i will start working on quiver. I will make starting design and layout for it by parallaly learning and applying to the site.
-                    <i>if i do this, i will gain experience and skills</i>  
-                </p>
-            </div>
-            </Layout>
-        );
-    }
+        <div className={style.our_all}>
+          <div className={style.our_all_card}>
+            <h1 className={style.our_all_card_h1}>Our Mission</h1>
+            <Image src={"/bf.jpg"} height={300} width={340} alt="jj" />
+            <p className={style.our_all_card_p}>
+              With our expert team members we are helping many urban and rural
+              people to start their organic business with ease. Our mission is
+              to train people and provide assistance for increasing farming
+              through quality productivity and meet the growing demand.Assisting
+              farmers to get new agriculture technology and subsidies from the
+              Central and State Government.
+            </p>
+          </div>
 
+          <div className={style.our_all_card}>
+            <h1 className={style.our_all_card_h1}>Our Plan</h1>
+            <Image src={"/bf.jpg"} height={300} width={340} alt="jj" />
+            <p className={style.our_all_card_p}>
+              To aware farmers about Agricultural Schemes and Subsides available
+              by the govts. Help urban and rural people to establish their
+              organic farm, train them for Biofloc farming, Diary Farming,
+              Aquaponics, Goatery Farming, Organic Farming etc. Help farmers of
+              Odisha to start their new agricultural business and augment their
+              employment and income opportunities..
+            </p>
+          </div>
 
-
+          <div className={style.our_all_card}>
+            <h1 className={style.our_all_card_h1}>Our Vision</h1>
+            <Image src={"/bf.jpg"} height={300} width={340} alt="jj" />
+            <p className={style.our_all_card_p}>
+              We are committed to enhance the socioeconomic conditions of the
+              farmers. Our aim is to help every youth and women self-employed by
+              making them Agri-entrepreneur. The Chasicare will work as a bridge
+              between the government farmers and the markets. Let’s work
+              together and win together in agribusiness.The care of chasi's is
+              the care of nation.No food, No good.
+            </p>
+          </div>
+        </div>
+      </div>
+    </Layout>
+  );
+}

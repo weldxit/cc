@@ -1,6 +1,8 @@
 import Layout from "./Layout"
 import style from '../styles/home.module.css'
+import Image from "next/image"
 import Link from "next/link"
+import ShallowNavbar from "./Shallow-Navbar"
 
 export default function Home() {
     return (
@@ -15,7 +17,10 @@ export default function Home() {
                     
                     </Link>
            </div>
+           
         </div>
+        <ShallowNavbar/>
+
         </Layout>
     )
 };
