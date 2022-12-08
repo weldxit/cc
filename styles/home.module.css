@@ -3,7 +3,7 @@
     position: relative;
     height: 100vh;
     width: auto;
-    background-image: linear-gradient(160deg, green, white, orange);
+    background-image: linear-gradient(140deg, #ff7300 , #fff, #005700 );
 }
 
 .homepage_front {
@@ -15,19 +15,22 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    z-index: 10;
+    color: #333;
 }
 
 .homepage_front_h1 {
     font-size: 3rem;
+    color: #173bda;
 }
 
 .call {
     border: 1px solid rgb(42, 81, 174);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     width: 19ch;
     height: 5ch;
-    background-color: rgb(255, 255, 255);
+    background-color: #173bda;
     border-radius: 15px;
     font-size: 1rem;
     font-weight: 700;

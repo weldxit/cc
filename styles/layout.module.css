@@ -1,25 +1,12 @@
 .navbar{
     position: sticky;
     top: 0;
-    z-index: 10;
-    padding: 0 15rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    justify-items: center;
-    height: 4rem;
-    background-color: black;
-   
+    z-index: 1000;
 }
 
 .logo{
     color: wheat;
 }
-.navcontainer{
-    display: flex;
-}
-
 .navbutton{
     text-decoration: none;
     display: flex;
@@ -31,13 +18,10 @@
     height: 2rem;
     width: 6rem;
     align-items: center;
-    /* text-align: center; */
-    /* justify-self: center; */
     font-size: 1.3rem;
-    font-family: cursive;
     font-weight: 500;
 }
 
 .navbutton:hover{
-color: black;
+color: rgb(255, 166, 0);
 }

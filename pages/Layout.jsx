@@ -1,21 +1,35 @@
 import React from "react";
-import Link from "next/link";
+import Image from "next/image";
 import style from '../styles/layout.module.css'
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
 const Layout = (props) => {
   return (
   <div>
     <div className={style.navbar}>
-      <div className={style.logo}>LOGO</div>
-      <div className={style.navcontainer}>
-    <Link href={'/Home'} className={style.navbutton} >Home</Link>
-      <Link href={'/Services'} className={style.navbutton}>Services</Link>
-      <Link href={'/Gallery'} className={style.navbutton}>Gallery</Link>
-      <Link href={'/About'} className={style.navbutton}>About</Link>
-      <Link href={'/Contact'} className={style.navbutton}>Contact</Link>
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Container>
+        <Navbar.Brand href="#home">
+          <Image src={'/whitclour.png'} width={200} height={50} alt="Logo" />
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="me-auto">
+            
+          </Nav>
+          <Nav>
+            <Nav.Link href="/Home" className={style.navbutton}>Home</Nav.Link>
+            <Nav.Link href="/Services" className={style.navbutton}>Services</Nav.Link>
+            <Nav.Link href="/Gallery" className={style.navbutton}>Gallery</Nav.Link>
+            <Nav.Link href="/About" className={style.navbutton}>About</Nav.Link>
+            <Nav.Link href="/Contact" className={style.navbutton}>Contact</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
     </div>
-    </div>
-
 
 
     <div>
