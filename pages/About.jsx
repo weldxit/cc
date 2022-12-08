@@ -28,9 +28,9 @@ export default function About() {
               Central and State Government.
             </p>
             <div className={style.our_all_card_images}>
-            <Image src={"/bf.jpg"} height={300} width={340} alt="jj" />
-            <Image src={"/bf.jpg"} height={300} width={340} alt="jj" />
-            <Image src={"/bf.jpg"} height={300} width={340} alt="jj" />
+            <Image src={"/bf.jpg"} height={300} width={340} alt="jj" className={style.Image} />
+            <Image src={"/bf.jpg"} height={300} width={340} alt="jj" className={style.Image} />
+            <Image src={"/bf.jpg"} height={300} width={340} alt="jj" className={style.Image} />
           </div>
           </div>
 
@@ -45,9 +45,9 @@ export default function About() {
               employment and income opportunities..
             </p>
             <div  className={style.our_all_card_images}>
-            <Image src={"/bf.jpg"} height={300} width={340} alt="jj" />
-            <Image src={"/bf.jpg"} height={300} width={340} alt="jj" />
-            <Image src={"/bf.jpg"} height={300} width={340} alt="jj" />
+            <Image src={"/bf.jpg"} height={300} width={340} alt="jj" className={style.Image} />
+            <Image src={"/bf.jpg"} height={300} width={340} alt="jj" className={style.Image} />
+            <Image src={"/bf.jpg"} height={300} width={340} alt="jj" className={style.Image} />
           </div>
           </div>
 
@@ -62,9 +62,9 @@ export default function About() {
               the care of nation.No food, No good.
             </p>
             <div  className={style.our_all_card_images}>
-            <Image src={"/bf.jpg"} height={300} width={340} alt="jj" />
-            <Image src={"/bf.jpg"} height={300} width={340} alt="jj" />
-            <Image src={"/bf.jpg"} height={300} width={340} alt="jj" />
+            <Image src={"/bf.jpg"} height={300} width={340} alt="jj" className={style.Image} />
+            <Image src={"/bf.jpg"} height={300} width={340} alt="jj" className={style.Image} />
+            <Image src={"/bf.jpg"} height={300} width={340} alt="jj" className={style.Image} />
           </div>
           </div>
         </div>

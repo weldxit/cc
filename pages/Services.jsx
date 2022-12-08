@@ -42,7 +42,7 @@ const Service = () => {
               </p>
             </div>
             <div className={style.service_card_image}>
-              <Image src={"/bf.jpg"} layout="fill" alt="faj" />
+              <Image src={"/bf.jpg"} width={300} height={300} alt="faj" className={style.Image} />
             </div>
           </div>
 
@@ -66,7 +66,7 @@ const Service = () => {
               </p>
             </div>
             <div className={style.service_card_image}>
-              <Image src={"/bf.jpg"} layout="fill" alt="faj" />
+              <Image src={"/bf.jpg"} width={300} height={300} alt="faj" className={style.Image} />
             </div>
           </div>
 
@@ -85,7 +85,7 @@ const Service = () => {
               </p>
             </div>
             <div className={style.service_card_image}>
-              <Image src={"/bf.jpg"} layout="fill" alt="faj" />
+              <Image src={"/bf.jpg"} width={300} height={300} alt="faj" className={style.Image} />
             </div>
           </div>
 
@@ -106,7 +106,7 @@ const Service = () => {
               </p>
             </div>
             <div className={style.service_card_image}>
-              <Image src={"/bf.jpg"} layout="fill" alt="faj" />
+              <Image src={"/bf.jpg"} width={300} height={300} alt="faj" className={style.Image} />
             </div>
           </div>
 
@@ -126,7 +126,7 @@ const Service = () => {
               </p>
             </div>
             <div className={style.service_card_image}>
-              <Image src={"/bf.jpg"} layout="fill" alt="faj" />
+              <Image src={"/bf.jpg"} width={300} height={300} alt="faj" className={style.Image} />
             </div>
           </div>
 
@@ -153,7 +153,7 @@ const Service = () => {
               </p>
             </div>
             <div className={style.service_card_image}>
-              <Image src={"/bf.jpg"} layout="fill" alt="faj" />
+              <Image src={"/bf.jpg"} width={300} height={300} alt="faj" className={style.Image} />
             </div>
           </div>
 
@@ -181,7 +181,7 @@ const Service = () => {
               </p>
             </div>
             <div className={style.service_card_image}>
-              <Image src={"/bf.jpg"} layout="fill" alt="faj" />
+              <Image src={"/bf.jpg"} width={300} height={300} alt="faj" className={style.Image} />
             </div>
           </div>
         </div>

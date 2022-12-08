@@ -18,7 +18,9 @@ export default function Home() {
                     
                     </Link>
            </div>
-           
+           <div className={style.chakra}>
+            <Image src={"/chakra.png"} width={300} height={300} alt="" className={style.image} />
+           </div>
         </div>
    
 <MiniAbout/>
