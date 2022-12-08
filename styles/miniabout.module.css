@@ -1,0 +1,37 @@
+.miniabout{
+    padding: 0 15rem;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(120deg, blue, purple);
+}
+
+.miniabout_cont{
+    margin: 3rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 70vh;
+    
+}
+
+
+
+.miniabout_h1{
+    margin: 0;
+    padding: 0.3rem;
+    font-size: 3rem;
+    color: white;
+    border-bottom: 1rem solid orange;
+}
+.miniabout_p{
+    margin: 4rem 0;
+    font-size: 1.5rem;
+   
+    color: white;
+    width: 30rem;
+    border-top: 1rem solid rgb(255, 132, 10);
+}

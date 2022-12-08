@@ -2,7 +2,8 @@ import Layout from "./Layout"
 import style from '../styles/home.module.css'
 import Image from "next/image"
 import Link from "next/link"
-import ShallowNavbar from "./Shallow-Navbar"
+import MiniAbout from "./MiniAbout"
+
 
 export default function Home() {
     return (
@@ -19,7 +20,8 @@ export default function Home() {
            </div>
            
         </div>
-        <ShallowNavbar/>
+   
+<MiniAbout/>
 
         </Layout>
     )

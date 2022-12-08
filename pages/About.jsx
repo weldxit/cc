@@ -19,7 +19,6 @@ export default function About() {
         <div className={style.our_all}>
           <div className={style.our_all_card}>
             <h1 className={style.our_all_card_h1}>Our Mission</h1>
-            <Image src={"/bf.jpg"} height={300} width={340} alt="jj" />
             <p className={style.our_all_card_p}>
               With our expert team members we are helping many urban and rural
               people to start their organic business with ease. Our mission is
@@ -28,11 +27,15 @@ export default function About() {
               farmers to get new agriculture technology and subsidies from the
               Central and State Government.
             </p>
+            <div className={style.our_all_card_images}>
+            <Image src={"/bf.jpg"} height={300} width={340} alt="jj" />
+            <Image src={"/bf.jpg"} height={300} width={340} alt="jj" />
+            <Image src={"/bf.jpg"} height={300} width={340} alt="jj" />
+          </div>
           </div>
 
           <div className={style.our_all_card}>
             <h1 className={style.our_all_card_h1}>Our Plan</h1>
-            <Image src={"/bf.jpg"} height={300} width={340} alt="jj" />
             <p className={style.our_all_card_p}>
               To aware farmers about Agricultural Schemes and Subsides available
               by the govts. Help urban and rural people to establish their
@@ -41,11 +44,15 @@ export default function About() {
               Odisha to start their new agricultural business and augment their
               employment and income opportunities..
             </p>
+            <div  className={style.our_all_card_images}>
+            <Image src={"/bf.jpg"} height={300} width={340} alt="jj" />
+            <Image src={"/bf.jpg"} height={300} width={340} alt="jj" />
+            <Image src={"/bf.jpg"} height={300} width={340} alt="jj" />
+          </div>
           </div>
 
           <div className={style.our_all_card}>
             <h1 className={style.our_all_card_h1}>Our Vision</h1>
-            <Image src={"/bf.jpg"} height={300} width={340} alt="jj" />
             <p className={style.our_all_card_p}>
               We are committed to enhance the socioeconomic conditions of the
               farmers. Our aim is to help every youth and women self-employed by
@@ -54,6 +61,11 @@ export default function About() {
               together and win together in agribusiness.The care of chasi's is
               the care of nation.No food, No good.
             </p>
+            <div  className={style.our_all_card_images}>
+            <Image src={"/bf.jpg"} height={300} width={340} alt="jj" />
+            <Image src={"/bf.jpg"} height={300} width={340} alt="jj" />
+            <Image src={"/bf.jpg"} height={300} width={340} alt="jj" />
+          </div>
           </div>
         </div>
       </div>
