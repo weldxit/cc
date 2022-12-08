@@ -1,0 +1,27 @@
+.contact{
+    padding: 0 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+}
+
+.texts{
+    padding-top:5rem;
+}
+.texts_h1{
+font-size: 3rem;
+}
+
+.texts_p{
+    width: 60em;
+    font-size: 1.5rem;
+}
+
+.address{
+    display: flex;
+    flex-direction: row;
+    height: 40rem;
+}
