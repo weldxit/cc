@@ -1,20 +1,17 @@
-.navbar{
+.navbar {
     position: sticky;
     top: 0;
     z-index: 1000;
 }
 
-.logo{
-    color: wheat;
-}
-.navbutton{
+.navbutton {
     text-decoration: none;
     display: flex;
     justify-content: center;
     box-sizing: border-box;
     margin: 0.3rem;
-   
-    color: wheat;
+
+    color: #fff;
     height: 2rem;
     width: 6rem;
     align-items: center;
@@ -22,6 +19,6 @@
     font-weight: 500;
 }
 
-.navbutton:hover{
-color: rgb(255, 166, 0);
+.navbutton:hover {
+    color: wheat;
 }

@@ -4,6 +4,7 @@ import style from '../styles/layout.module.css'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import Footer from "../components/Footer";
 
 const Layout = (props) => {
   return (
@@ -38,7 +39,7 @@ const Layout = (props) => {
 
     <div>
       <footer>
-        footer
+        <Footer />
       </footer>
     </div>
   </div>
