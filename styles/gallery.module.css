@@ -19,7 +19,7 @@
     flex-wrap: wrap;
 
     justify-content: center;
-    gap: 20px;
+    gap: 5px;
 }
 
 .gallery_text {
@@ -30,7 +30,6 @@
     text-align: center;
     font-size: 3rem;
     margin-bottom: 2rem;
-
 }
 
 .g_image {
@@ -38,10 +37,18 @@
     height: fit-content;
     width: fit-content;
     overflow: hidden;
-    padding: 10px 10px 50px 10px;
-    background-color: #fff;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 15px;
+    border: 1px solid #aaa;
+}
 
+.image1{
+    width: 271px;
+    height: 300px;
+}
+
+.image2{
+    width: 542px;
+    height: 300px;
 }
 
 
@@ -53,6 +60,10 @@
     .gallery_h1 {
         font-size: 2.5rem;
     }
+
+    .image1, .image2 {
+        width: 300px;
+    }
 }
 
 @media (min-width: 250px) and (max-width: 290px) {
@@ -63,28 +74,59 @@
     .gallery_h1 {
         font-size: 2rem;
     }
+
+    .image1, .image2 {
+        width: 230px;
+        height: 230px;
+    }
 }
 
-@media (min-width: 970px) and (max-width: 1380px) {
+@media (min-width: 970px) and (max-width: 1080px) {
     .container {
-        width: auto;
+        width: 1015px;
+        padding: 10px;
+    }
+
+    .image1{
+        width: 210px;
+        height: 250px;
+    }
+    
+    .image2{
+        width: 490px;
+        height: 250px;
     }
 }
 
 @media (min-width: 750px) and (max-width: 920px) {
     .container {
-        width: auto;
-        padding: 0 50px;
+        width: 815px;
+        padding: 10px;
+    }
+
+    .image1{
+        width: 170px;
+        height: 220px;
+    }
+    
+    .image2{
+        width: 400px;
+        height: 220px;
     }
 }
 
 @media (min-width: 520px) and (max-width: 690px) {
     .container {
         width: auto;
-        padding: 50px;
+        padding: 10px;
     }
 
     .gallery_h1 {
         font-size: 2.5rem;
+    }
+
+    .image1, .image2 {
+        width: 240px;
+        height: 250px;
     }
 }

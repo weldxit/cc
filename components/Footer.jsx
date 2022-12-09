@@ -10,7 +10,7 @@ const Footer = () => {
     <div className={style.Footer}>
       <div className={style.footerSec}>
         <div className={style.brandDiv}>
-          <Image src={'/whitclour.png'} width={200} height={50} />
+          <Image src={'/whitclour.png'} width={200} height={50} alt="logo"/>
         </div>
         <div className={style.linksDiv}>
           <div>

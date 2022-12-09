@@ -1,5 +1,5 @@
-.contact{
-    padding: 0 15rem;
+.contact {
+    padding: 0 10rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,20 +8,74 @@
     text-align: center;
 }
 
-.texts{
-    padding-top:5rem;
-}
-.texts_h1{
-font-size: 3rem;
+.texts {
+    padding-top: 5rem;
 }
 
-.texts_p{
-    width: 60em;
+.texts_h1 {
+    font-size: 3rem;
+}
+
+.texts_p {
     font-size: 1.5rem;
+    text-align: justify;
 }
 
-.address{
+.address {
     display: flex;
     flex-direction: row;
     height: 40rem;
+}
+
+@media (min-width: 300px) and (max-width: 430px) {
+    .contact {
+        padding: 20px;
+    }
+
+    .texts {
+        padding-top: 1rem;
+    }
+
+    .texts_h1 {
+        font-size: 2rem;
+    }
+
+    .texts_p {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 250px) and (max-width: 290px) {
+    .contact {
+        padding: 20px;
+    }
+
+    .texts {
+        padding-top: 1rem;
+    }
+
+    .texts_h1 {
+        font-size: 2rem;
+    }
+
+    .texts_p {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 970px) and (max-width: 1380px) {}
+
+@media (min-width: 750px) and (max-width: 920px) {
+    .contact {
+        padding: 0 5rem;
+    }
+}
+
+@media (min-width: 520px) and (max-width: 690px) {
+    .contact {
+        padding: 0 3rem;
+    }
+    .texts {
+        padding-top: 2rem;
+    }
 }
