@@ -4,6 +4,7 @@ import Layout from "./Layout";
 import style from '../styles/contact.module.css'
 import Head from "next/head";
 import Script from "next/script";
+import Link from "next/link";
 
 export default function Contact() {
   return (
@@ -146,9 +147,18 @@ export default function Contact() {
             </p>
           </div>
           <div className={style.address}>
-            <div className={style.address_add}></div>
-            <div className={style.address_mob}></div>
-            <div className={style.address_mail}></div>
+            <div className={style.address_add}>
+              <h3>Address</h3>
+              <p>Niladri vihar <br/> Chandrasekhar Pur <br /> Bhubaneswar</p>
+            </div>
+            <div className={style.address_mob}>
+              <h3>Phone</h3>
+              <Link href={'tel: +91 7077598851'}>7077598851</Link>
+            </div>
+            <div className={style.address_mail}>
+              <h3>Mail</h3>
+              <Link href={'mailto:subhransu.weldxit@gmail.com'}>subhransu</Link>
+            </div>
           </div>
 
         </div>

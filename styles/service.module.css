@@ -26,8 +26,8 @@
 }
 
 .service_text_p {
-    text-align: center;
-    font-size: 1.4rem;
+    text-align: justify;
+    font-size: 1.3rem;
 }
 
 
@@ -52,7 +52,7 @@
 
 .service_card {
     /* position: relative; */
-    margin-bottom: 6rem;
+    margin-bottom: 2rem;
     height: auto;
     width: auto;
     display: flex;

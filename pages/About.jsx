@@ -4,6 +4,7 @@ import style from "../styles/about.module.css";
 import Image from "next/image";
 import Head from 'next/head';
 import Script from 'next/script'
+import Form from "./Form";
 export default function About() {
   return (
     <Layout>
@@ -195,6 +196,9 @@ export default function About() {
           </div>
           </div>
         </div>
+      </div>
+      <div>
+        <Form/>
       </div>
     </Layout>
   );

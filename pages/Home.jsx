@@ -4,6 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import MiniAbout from "./MiniAbout";
 import Head from "next/head";
+import Form from "./Form";
+import AllServices from "../components/AllServices";
 
 export default function Home() {
   return (
@@ -97,8 +99,13 @@ export default function Home() {
           />
         </div>
       </div>
-
+        <div className={style.As}>
+          <AllServices />
+        </div>
       <MiniAbout />
+      <div>
+        <Form/>
+      </div>
     </Layout>
   );
 }

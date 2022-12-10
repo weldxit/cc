@@ -4,6 +4,7 @@ import Image from "next/image";
 import style from "../styles/gallery.module.css";
 import Head from "next/head";
 import Script from "next/script";
+import Form from "./Form";
 export default function Gallery() {
   return (
     <Layout>
@@ -119,9 +120,11 @@ export default function Gallery() {
         </Script>
 
       </Head>
+      <div className={style.main}>
       <div className={style.container}>
         <div className={style.gallery_text}>
-          <h1 className={style.gallery_h1}>See Our Images</h1>
+          <h1 className={style.gallery_h1}>Chasicare Project Gallery</h1>
+          <p className={style.p}>The CHASICARE is pioneer in designing and developing the Biofloc fish farming projects and other organic farming projects in Odisha. Explore our completed Biofloc fish farming projects and organic farming projects insights here.</p>
         </div>
         <div className={style.gallery}>
           <div className={style.g_image}>
@@ -161,6 +164,10 @@ export default function Gallery() {
             <Image src={"/bf.jpg"} width={271} height={300} alt="bio" className={style.image1} />
           </div>
         </div>
+      </div>
+      </div>
+      <div>
+        <Form/>
       </div>
     </Layout>
   );

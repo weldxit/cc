@@ -1,5 +1,5 @@
 .miniabout{
-    padding: 0 15rem;
+    padding: 5rem 15rem;
     height: max-content;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
 }
 
 .miniabout_cont{
-    margin: 3rem 0;
+    margin: 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -27,7 +27,7 @@
 }
 .miniabout_p{
     margin: 3.7rem 0;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: white;
     width: 25rem;
     border-top: 1rem solid rgb(255, 132, 10);
@@ -38,7 +38,6 @@
     }
     
     .miniabout_cont{
-        margin: 3rem 0;
         width: 20rem;
         
     }
@@ -60,7 +59,6 @@
     }
     
     .miniabout_cont{
-        margin: 3rem 0;
         width: 15rem;
         
     }
@@ -88,7 +86,6 @@
     }
     
     .miniabout_cont{
-        margin: 3rem 0;
         width: 30rem;
         
     }

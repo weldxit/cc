@@ -27,8 +27,8 @@
 }
 
 .about_text_p {
-    text-align: center;
     font-size: 1.4rem;
+    text-align: justify;
 }
 
 
@@ -43,7 +43,7 @@
 
 
 .our_all_card {
-    margin-bottom: 6rem;
+    margin-bottom: 2rem;
     padding: 1rem;
     display: flex;
     flex-direction: column;
@@ -62,7 +62,7 @@
 }
 
 .our_all_card_p {
-    text-align: center;
+    text-align: justify;
     font-size: 1.3rem;
 }
 
