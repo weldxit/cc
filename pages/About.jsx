@@ -141,7 +141,7 @@ export default function About() {
             At <b>CHASICARE</b>, we are helping farmers to setup their organic farms and maximize their profits with the new range of agriculture technology, training and government subsidies facilities. <br /><br />
             The <b>CHASICARE</b> is a farmer centric organization that helps you to establish your own organic in various sectors including, Biofloc fish farming, Aquaponics, Dairy farming, Goatry farming, Poultry farming and more. The <b>CHASICARE</b> team also helps to set up your organic farm in the flats, rooftop, balcony or any other open spaces and keep you safe from the hazardous food infections. <br/><br/>
 
-            <p style={{fontSize: "20px"}}>ଚାଷୀର ଉନ୍ନତି, ଦେଶର ପ୍ରଗତି!</p>
+            <span style={{fontSize: "20px"}}>ଚାଷୀର ଉନ୍ନତି, ଦେଶର ପ୍ରଗତି!</span> <br/><br/>
 
             Let the <b>CHASICARE</b> expert team meet you and discuss the organic farming facilities including (Biofloc Farming, Dairy Farming, Goatery and Poultry Farming, Aquaponics Farming etc.., and help you to expand your business in your locality. We always stand with our Farmers Friend (ଚାଷୀ ଭାଇ) and will support them from all aspects. Call Us Today: <b>9777028888</b> for Any Types of Agricultural Help and We’ll Assist You!
           </p>

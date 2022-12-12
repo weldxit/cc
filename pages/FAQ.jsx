@@ -18,7 +18,7 @@ const FAQ = () => {
                 </div>
                 <div className={style.FAQ}>
                     <div className={style.head}>
-                        <h1 className={style.H}>Commonly Asked Questions</h1>
+                        <h1 className={style.H}>Frequently Asked Questions (FAQ)</h1>
                         <p className={style.P}>Many <b>Chasicare</b> customers are asking the common questions for their organic farming including Biofloc, Aquaponics, Diary farming, Dairy & Goatery, Soil less farming, hydroponic farming and more. Let’s explore the most common and frequently asked questions and answers here at <b>Chasicare</b>, Odisha.</p>
                     </div>
                     <div className={style.Accordion}>
