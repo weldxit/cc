@@ -50,7 +50,7 @@ export default function Home() {
         <meta property="og:url" content="https://chasicare.com/" />
         <meta
           property="og:image"
-          content="https://chasicare.com/img/chasicare/newpics/Chasicare_biofloc_odisha.jpg"
+          content="https://chasicare.com/img/chasicare/newpics/Chasicare_OG.jpg"
         />
         <meta property="og:site_name" content="Chasicare" />
         <meta
@@ -94,17 +94,22 @@ export default function Home() {
             src={"/chakra.png"}
             width={300}
             height={300}
-            alt=""
+            alt="Chasicare Odisha"
             className={style.image}
           />
         </div>
       </div>
-        <div className={style.As}>
-          <AllServices />
-        </div>
-      <MiniAbout />
+      <div className={style.div}></div>
+      <div className={style.As}>
+        <AllServices />
+      </div>
+      <div className={style.div}></div>
       <div>
-        <Form/>
+        <MiniAbout />
+      </div>
+      <div className={style.div}></div>
+      <div>
+        <Form />
       </div>
     </Layout>
   );

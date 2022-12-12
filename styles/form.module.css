@@ -1,8 +1,10 @@
 
 
 .body {
-    background-image: linear-gradient(to right top, #2dff00, #00ff76, #00fbaf, #00f4d6, #12ebeb);
-    padding: 100px 0;
+    /* background-image: linear-gradient(to right top, #2dff00, #00ff76, #00fbaf, #00f4d6, #12ebeb); */
+    background-image: url('/grass.jpg');
+    background-size: cover;
+    padding: 70px 0;
 }
 
 .container {
@@ -15,12 +17,11 @@
     margin-top: -40px;
     color: #026116;
     font-family: serif;
-    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
 }
 
 .form {
     width: 1000px;
-    height: 400px;
+    height: 450px;
     background-color: #fff;
     margin: 0 auto;
     padding: 50px 0;
@@ -74,6 +75,11 @@
     background-color: #097b09;
 }
 
+.ps {
+    padding: 0 40px;
+    text-align: justify;
+}
+
 @media (min-width: 300px) and (max-width: 430px) {
     .container {
         margin-top: 20px;
@@ -85,7 +91,7 @@
 
     .form {
         width: 90%;
-        height: 550px;
+        height: 700px;
     }
 
     .input {
@@ -117,7 +123,7 @@
 
     .form {
         width: 90%;
-        height: 550px;
+        height: 720px;
     }
 
     .input {
@@ -134,6 +140,11 @@
     .p2 {
         width: auto;
         float: none;
+    }
+
+    .ps {
+        padding: 0 20px;
+        text-align: justify;
     }
 
 }
@@ -153,7 +164,7 @@
 
     .form {
         width: 90%;
-        height: 360px;
+        height: 440px;
     }
 
     .input {
@@ -179,7 +190,7 @@
 
     .form {
         width: 90%;
-        height: 360px;
+        height: 460px;
     }
 
     .input {

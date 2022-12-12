@@ -21,13 +21,13 @@
 
 .service_text_h1 {
 
-    font-size: 3rem;
+    font-size: 2.5rem;
 
 }
 
 .service_text_p {
     text-align: justify;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 
@@ -91,7 +91,7 @@
 }
 
 .Image {
-    width: 340px;
+    width: 450px;
     height: 340px;
 }
 

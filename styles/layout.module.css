@@ -2,6 +2,7 @@
     position: sticky;
     top: 0;
     z-index: 1000;
+    background-image: linear-gradient(to right, #010914, #0b2129, #143736, #2e4d3c, #55603f);
 }
 
 .navbutton {

@@ -1,6 +1,6 @@
 .Footer {
     padding: 2rem 2em 1em;
-    background-color: #212529;
+    background-image: linear-gradient(to right, #010914, #0b2129, #143736, #2e4d3c, #55603f);
     text-align: center;
     color: #fff;
 }
@@ -24,7 +24,7 @@
 
 .ul {
     list-style: none;
-    text-align-last: left;
+    text-align: left;
 }
 
 .li {

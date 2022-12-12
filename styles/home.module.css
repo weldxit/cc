@@ -50,8 +50,16 @@
 }
 
 .As{
-    margin-top: -2rem;
-    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    margin-top: 0rem;
+    /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+    background-image: url('/lands.jpg');
+    background-size: cover;
+}
+
+.div{
+    height: 2ch;
+    background-image: linear-gradient(to right, #010914, #0b2129, #143736, #2e4d3c, #55603f);
+    z-index: -1000;
 }
 
 @keyframes mymove {

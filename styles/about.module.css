@@ -22,12 +22,12 @@
 }
 
 .about_text_h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: rgb(255, 255, 255);
 }
 
 .about_text_p {
-    font-size: 1.4rem;
+    font-size: 1rem;
     text-align: justify;
 }
 
@@ -63,7 +63,7 @@
 
 .our_all_card_p {
     text-align: justify;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 
@@ -74,8 +74,9 @@
 }
 
 .Image {
-    width: 250px;
-    height: 250px;
+    width: 630px;
+    height: 350px;
+    margin: auto;
 }
 
 @media (min-width: 300px) and (max-width: 430px) {

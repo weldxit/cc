@@ -121,42 +121,44 @@ export default function Gallery() {
 
       </Head>
       <div className={style.main}>
-      <div className={style.container}>
-        <div className={style.gallery_text}>
-          <h1 className={style.gallery_h1}>Chasicare Project Gallery</h1>
-          <p className={style.p}>The CHASICARE is pioneer in designing and developing the Biofloc fish farming projects and other organic farming projects in Odisha. Explore our completed Biofloc fish farming projects and organic farming projects insights here.</p>
+        <div className={style.container}>
+          <div className={style.gallery_text}>
+            <h1 className={style.gallery_h1}>Chasicare Project Gallery</h1>
+            <p className={style.p}>The <b>CHASICARE</b> is pioneer in designing and developing the Biofloc fish farming projects and other organic farming projects in Odisha. Explore our completed Biofloc fish farming projects and organic farming projects insights here.</p>
+          </div>
+          <div className={style.gallery}>
+            <div className={style.g_image}>
+              <Image src={"/Chasicare_Biofloc_Projects10.jpg"} width={271} height={300} alt="Biofloc by Chasicare" className={style.image1} />
+            </div>
+            <div className={style.g_image}>
+              <Image src={"/Chasicare_Biofloc_Projects19.jpg"} width={271} height={300} alt="Biofloc by Chasicare" className={style.image1} />
+            </div>
+            <div className={style.g_image}>
+              <Image src={"/Chasicare_Biofloc_Projects13.jpg"} width={542} height={300} alt="Biofloc by Chasicare" className={style.image2} />
+            </div>
+            <div className={style.g_image}>
+              <Image src={"/Chasicare_Biofloc_Projects11.jpg"} width={542} height={300} alt="Biofloc by Chasicare" className={style.image2} />
+            </div>
+            <div className={style.g_image}>
+              <Image src={"/Chasicare_Biofloc_Projects33.jpg"} width={271} height={300} alt="Biofloc by Chasicare" className={style.image1} />
+            </div>
+            <div className={style.g_image}>
+              <Image src={"/Chasicare_Biofloc_Projects5.jpg"} width={271} height={300} alt="Biofloc by Chasicare" className={style.image1} />
+            </div>
+            <div className={style.g_image}>
+              <Image src={"/Chasicare_Biofloc_Projects34.jpg"} width={271} height={300} alt="Biofloc by Chasicare" className={style.image1} />
+            </div>
+            <div className={style.g_image}>
+              <Image src={"/Chasicare_Biofloc_Projects17.jpg"} width={271} height={300} alt="Biofloc by Chasicare" className={style.image1} />
+            </div>
+            <div className={style.g_image}>
+              <Image src={"/Chasicare_Biofloc_Projects9.jpg"} width={542} height={300} alt="Biofloc by Chasicare" className={style.image2} />
+            </div>
+          </div>
         </div>
-        <div className={style.gallery}>
-          <div className={style.g_image}>
-            <Image src={"/Chasicare_Biofloc_Projects10.jpg"} width={271} height={300} alt="bio" className={style.image1} />
-          </div>
-          <div className={style.g_image}>
-            <Image src={"/Chasicare_Biofloc_Projects11.jpg"} width={271} height={300} alt="bio" className={style.image1} />
-          </div>
-          <div className={style.g_image}>
-            <Image src={"/Chasicare_Biofloc_Projects13.jpg"} width={542} height={300} alt="bio" className={style.image2} />
-          </div>
-          <div className={style.g_image}>
-            <Image src={"/Chasicare_Biofloc_Projects19.jpg"} width={542} height={300} alt="bio" className={style.image2} />
-          </div>
-          <div className={style.g_image}>
-            <Image src={"/Chasicare_Biofloc_Projects33.jpg"} width={271} height={300} alt="bio" className={style.image1} />
-          </div>
-          <div className={style.g_image}>
-            <Image src={"/Chasicare_Biofloc_Projects5.jpg"} width={271} height={300} alt="bio" className={style.image1} />
-          </div>
-          <div className={style.g_image}>
-            <Image src={"/Chasicare_Biofloc_Projects34.jpg"} width={271} height={300} alt="bio" className={style.image1} />
-          </div>
-          <div className={style.g_image}>
-            <Image src={"/Chasicare_Biofloc_Projects9.jpg"} width={271} height={300} alt="bio" className={style.image1} />
-         
-        </div>
-      </div>
-      </div>
       </div>
       <div>
-        <Form/>
+        <Form />
       </div>
     </Layout>
   );

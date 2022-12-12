@@ -131,15 +131,15 @@ const Service = () => {
         <div className={style.service_text}>
           <h1 className={style.service_text_h1}> Our Services</h1>
           <p className={style.service_text_p}>
-            <strong>Chasicare</strong> often try to bring agricultural
+            <b>Chasicare</b> often try to bring agricultural
             revolution into Odisha by implementing a new range of technology,
             agricultural support to farmers and focus on organic farming for a
-            sustainable development. The CHASICARE believe in agricultural
+            sustainable development. The <b>CHASICARE</b> believe in agricultural
             development of Odisha and helping farmers to setup their own
             agricultural business including organic farming, Biofoc fish
             farming, urban farming, dairy farming, poultry farming, mushroom
             farming, goatery farming, Aquaponics and many more. Let’s explore
-            the list of services the CHASICARE is offering in Odisha..
+            the list of services the <b>CHASICARE</b> is offering in Odisha..
           </p>
         </div>
         <div className={style.wrapper}>
@@ -147,7 +147,7 @@ const Service = () => {
           <div className={style.service_card} id='bfloc'>
             <div className={style.service_card_text}>
               <h1 className={style.service_card_h1}>
-                Biofloc Farming ବାୟୋଫ୍ଲକ
+                Biofloc Farming<br/>ବାୟୋଫ୍ଲକ
               </h1>
               <p className={style.service_card_p}>
                 ବାୟୋଫ୍ଲକ ଏକ ବୈଷୟିକ ମାଛ ଚାଷ ପ୍ରଣାଳୀ । ଉପଯୁକ୍ତ ଜ୍ଞାନକୌଶଳ ଦ୍ୱାରା
@@ -164,13 +164,13 @@ const Service = () => {
               </p>
             </div>
             <div className={style.service_card_image}>
-              <Image src={"/bf.jpg"} width={300} height={300} alt="faj" className={style.Image} />
+              <Image src={"/Chasicare_Biofloc_Projects9.jpg"} width={300} height={300} alt="Chasicare Odisha" className={style.Image} />
             </div>
           </div>
 
           <div className={style.service_card} id='dairy'>
             <div className={style.service_card_text}>
-              <h1 className={style.service_card_h1}>Dairy Farming ଗାଈଚାଷ</h1>
+              <h1 className={style.service_card_h1}>Dairy Farming<br/>ଗାଈଚାଷ</h1>
               <p className={style.service_card_p}>
                 ଗାଈ ଚାଷ ଏକ ପାରମ୍ପରିକ ଚାଷ । ସମୟ ବଦଳିବା ସହ ଏହି ଚାଷରେ ଜ୍ଞାନକୌଶଳ
                 ପ୍ରୟୋଗ ଦ୍ୱାରା ଲାଭ ନିଶ୍ଚିତ ହୋଇ ପାରିବ । ଗାଈ ଚାଷ ଅର୍ଥ କେବଳ ଜର୍ସି
@@ -183,14 +183,14 @@ const Service = () => {
               </p>
             </div>
             <div className={style.service_card_image}>
-              <Image src={"/bf.jpg"} width={300} height={300} alt="faj" className={style.Image} />
+              <Image src={"/s2.jpg"} width={300} height={300} alt="Chasicare Odisha" className={style.Image} />
             </div>
           </div>
 
           <div className={style.service_card} id='goat'>
             <div className={style.service_card_text}>
               <h1 className={style.service_card_h1}>
-                Goatery Farming ଛେଳି ଚାଷ
+                Goatery Farming<br/>ଛେଳି ଚାଷ
               </h1>
               <p className={style.service_card_p}>
                 ଛେଳିଚାଷ ସର୍ବଦା ଲାଭଜନକ ହୋଇଥାଏ । ହେଲେ ଏହି ଚାଷକୁ ସୁ ସଂଯୋଜିତ ଭାବେ
@@ -204,14 +204,14 @@ const Service = () => {
               </p>
             </div>
             <div className={style.service_card_image}>
-              <Image src={"/bf.jpg"} width={300} height={300} alt="faj" className={style.Image} />
+              <Image src={"/s3.jpg"} width={300} height={300} alt="Chasicare Odisha" className={style.Image} />
             </div>
           </div>
 
           <div className={style.service_card} id="poultry">
             <div className={style.service_card_text}>
               <h1 className={style.service_card_h1}>
-                Poultry Farming କୁକୁଡ଼ା ଚାଷ
+                Poultry Farming<br/>କୁକୁଡ଼ା ଚାଷ
               </h1>
               <p className={style.service_card_p}>
                 ଚାଷୀକେୟାର ଦେଶୀ କୁକୁଡ଼ା ଚାଷକୁ ପ୍ରୋତ୍ସାହିତ କରୁଛି । ଦେଶୀ କୁକୁଡ଼ା
@@ -224,14 +224,14 @@ const Service = () => {
               </p>
             </div>
             <div className={style.service_card_image}>
-              <Image src={"/bf.jpg"} width={300} height={300} alt="faj" className={style.Image} />
+              <Image src={"/s4.jpg"} width={300} height={300} alt="Chasicare Odisha" className={style.Image} />
             </div>
           </div>
 
           <div className={style.service_card} id='organic'>
             <div className={style.service_card_text}>
               <h1 className={style.service_card_h1}>
-                Organic Farming ଜୈବିକ ଚାଷ
+                Organic Farming<br/>ଜୈବିକ ଚାଷ
               </h1>
               <p className={style.service_card_p}>
                 ଛତୁ ଚାଷ ଛତୁ ଚାଷର ଚାହିଦା ଦିନକୁ ଦିନ ବଢ଼ୁଛି । ଅନେକ ଲୋକ ସ୍ୱାସ୍ଥ୍ୟଗତ
@@ -251,14 +251,14 @@ const Service = () => {
               </p>
             </div>
             <div className={style.service_card_image}>
-              <Image src={"/bf.jpg"} width={300} height={300} alt="faj" className={style.Image} />
+              <Image src={"/s5.jpg"} width={300} height={300} alt="Chasicare Odisha" className={style.Image} />
             </div>
           </div>
 
           <div className={style.service_card} id='aqua'>
             <div className={style.service_card_text}>
               <h1 className={style.service_card_h1}>
-                Aquaponics Farming ଆକ୍ୱାପୋନିକ
+                Aquaponics Farming<br/>ଆକ୍ୱାପୋନିକ
               </h1>
               <p className={style.service_card_p}>
                 ଏହା ମଧ୍ୟ ଅତ୍ୟାଧୂନିକ ଚାଷ ପ୍ରଣାଳୀ । ମାଟି ବିନା ପନିପରିବା ଓ ଫଳ ଚାଷ
@@ -279,7 +279,7 @@ const Service = () => {
               </p>
             </div>
             <div className={style.service_card_image}>
-              <Image src={"/bf.jpg"} width={300} height={300} alt="faj" className={style.Image} />
+              <Image src={"/s6.jpg"} width={300} height={300} alt="Chasicare Odisha" className={style.Image} />
             </div>
           </div>
         </div>
