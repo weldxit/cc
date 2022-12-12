@@ -8,10 +8,9 @@
 .navbutton {
     text-decoration: none;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     box-sizing: border-box;
     margin: 0.3rem;
-
     color: #fff;
     height: 2rem;
     width: 6rem;

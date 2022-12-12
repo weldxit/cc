@@ -10,10 +10,10 @@
 
 .FAQimage {
     width: 45%;
-    margin: 20px;
 }
 
 .Image {
+    margin: 20px auto;
     width: 550px;
     height: 350px;
 }
