@@ -80,6 +80,12 @@
     margin: auto;
 }
 
+.div{
+    height: 2ch;
+    background-image: linear-gradient(to right, #010914, #0b2129, #143736, #2e4d3c, #55603f);
+    z-index: -1000;
+}
+
 @media (min-width: 300px) and (max-width: 430px) {
     .about {
         padding: 10px;

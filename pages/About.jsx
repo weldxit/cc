@@ -194,6 +194,7 @@ export default function About() {
           </div>
         </div>
       </div>
+      <div className={style.div}></div>
       <div>
         <Form />
       </div>

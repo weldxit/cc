@@ -162,8 +162,8 @@ export default function Contact() {
               </div>
             </div>
           </div>
-
         </div>
+        <div className={style.div}></div>
         <Form />
       </div>
     </Layout>
