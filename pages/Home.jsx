@@ -9,7 +9,7 @@ import AllServices from "../components/AllServices";
 
 export default function Home() {
   return (
-    <Layout>
+   <>
       <Head>
         <meta charSet="utf-8" />
         <title>
@@ -113,6 +113,7 @@ export default function Home() {
       <div>
         <Form />
       </div>
-    </Layout>
+      </>
+
   );
 }

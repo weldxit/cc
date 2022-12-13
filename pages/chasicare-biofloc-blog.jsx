@@ -7,7 +7,7 @@ import Social from '../components/Social';
 
 const Blog = () => {
     return (
-        <Layout>
+        <>
             <Head>
                 <title>Biofloc Fish Farming in Odisha Brings Earning Opportunities | Chasicare</title>
             </Head>
@@ -81,7 +81,7 @@ const Blog = () => {
                     <div className={style.social}><Social /></div>
                 </div>   
             </div>
-        </Layout>
+        </>
     )
 }
 

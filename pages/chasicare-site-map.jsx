@@ -5,7 +5,7 @@ import style from "../styles/Sitemap.module.css"
 
 const Sitemap = () => {
     return (
-        <Layout>
+        <>
             <h2 style={{textAlign: "center", marginTop: "50px"}}>Chasicare Sitemap</h2>
             <div className={style.sitemap}>
                 <div className={style.map}>
@@ -33,7 +33,7 @@ const Sitemap = () => {
                     <Link href={'/FAQ'}>https://www.chasicare.com/FAQ</Link>
                 </div>
             </div>
-        </Layout>
+        </>
     )
 }
 
