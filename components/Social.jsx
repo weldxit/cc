@@ -15,7 +15,7 @@ import {
   } from "react-share";
 
 const Social = () => {
-    const shareUrl = "https://www.chasicare.com/blog"
+    const shareUrl = "https://www.chasicare.com/Blog"
     return (
         <div>
             <FacebookShareButton url={shareUrl}>
