@@ -12,7 +12,7 @@ const Layout = (props) => {
     <div className={style.navbar}>
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand href="/Home">
+        <Navbar.Brand href="/">
           <Image src={'/whitclour.png'} width={200} height={50} alt="Logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -21,7 +21,7 @@ const Layout = (props) => {
             
           </Nav>
           <Nav>
-            <Nav.Link href="/Home" className={style.navbutton}>Home</Nav.Link>
+            <Nav.Link href="/" className={style.navbutton}>Home</Nav.Link>
             <Nav.Link href="/Services" className={style.navbutton}>Services</Nav.Link>
             <Nav.Link href="/Gallery" className={style.navbutton}>Gallery</Nav.Link>
             <Nav.Link href="/About" className={style.navbutton}>About</Nav.Link>

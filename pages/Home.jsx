@@ -50,7 +50,7 @@ export default function Home() {
         <meta property="og:url" content="https://chasicare.com/" />
         <meta
           property="og:image"
-          content='/../public/Chasicare_OG.jpg'
+          content='/public/Chasicare_OG2.jpg'
         />
         <meta property="og:site_name" content="Chasicare" />
         <meta
