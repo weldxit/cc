@@ -142,26 +142,28 @@ export default function Contact() {
             <p className={style.texts_p}>
               Contact to Chasicare Expert team by filling out the form below and
               our expert team will reach you soon. As a farmer’s centric
-              organisation, the CHASICARE in Odisha is committed to help farmers
+              organisation, the <b>CHASICARE</b> in Odisha is committed to help farmers
               for setting up their organic farm, biofloc fish farm, dairy farm,
               goatery farm, aquaponics and more.
             </p>
           </div>
           <div className={style.address}>
             <div className={style.address_add}>
-              <Image src={'/direction.png'} width={50} height={50}/>
-              <div>Niladri vihar <br/> Chandrasekhar Pur <br /> Bhubaneswar</div>
+              <Image src={'/direction.png'} width={50} height={50} alt="Chasicare Odisha" />
+              <div><b>Plot No:</b> 309/1801P, Niladri Vihar,<br/>Bhubaneswar, Odisha&nbsp;<b>Pin:</b> 751021</div>
             </div>
             <div className={style.address_add}>
-            <Image src={'/contact.png'} width={50} height={50}/>
+            <Image src={'/contact.png'} width={50} height={50} alt="Chasicare Odisha" />
               <div style={{marginLeft: "1ch"}}>
-              <Link href={'tel: +91 7077598851'}>+91 7077598851</Link><br />
-              <Link href={'mailto:subhransu.weldxit@gmail.com'}>subhransu.weldxit@gmail.com</Link>
+              <span><b>Phone:&nbsp;&nbsp;</b></span>
+              <Link href={'tel: +91 9777028888'}>+91 9777028888</Link><br />
+              <span><b>Email:&nbsp;&nbsp;</b></span>
+              <Link href={'mailto:chasimitraindia@gmail.com'}>chasimitraindia@gmail.com</Link>
               </div>
             </div>
           </div>
-
         </div>
+        <div className={style.div}></div>
         <Form />
       </div>
     </Layout>

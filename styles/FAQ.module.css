@@ -5,15 +5,16 @@
 }
 
 .FAQ {
-    width: 50%;
+    width: 55%;
 }
 
 .FAQimage {
-    width: 50%;
-    margin: 20px;
+    width: 45%;
+    text-align: center;
 }
 
 .Image {
+    margin: 20px auto;
     width: 550px;
     height: 350px;
 }
@@ -21,6 +22,7 @@
 .Accordion {
     width: 90%;
     margin: 2rem 0;
+    text-align: justify;
 }
 
 .head {
@@ -36,6 +38,18 @@
     color: #333;
     text-align: justify;
 }
+
+.div{
+    height: 2ch;
+    background-image: linear-gradient(to right, #010914, #0b2129, #143736, #2e4d3c, #55603f);
+    z-index: -1000;
+}
+
+.social{
+    margin: 20px auto;
+    text-align: center;
+}
+
 @media (min-width: 300px) and (max-width: 430px){
     .FAQarea{
         display: block;

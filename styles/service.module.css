@@ -20,14 +20,14 @@
 }
 
 .service_text_h1 {
-
-    font-size: 3rem;
+    margin: 2rem 0 1rem;
+    font-size: 2rem;
 
 }
 
 .service_text_p {
     text-align: justify;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 
@@ -88,11 +88,18 @@
 
 .service_card_image {
     margin-left: 1rem;
+    text-align: center;
 }
 
 .Image {
-    width: 340px;
+    width: 450px;
     height: 340px;
+}
+
+.div{
+    height: 2ch;
+    background-image: linear-gradient(to right, #010914, #0b2129, #143736, #2e4d3c, #55603f);
+    z-index: -1000;
 }
 
 @media (min-width: 300px) and (max-width: 430px) {

@@ -22,12 +22,13 @@
 }
 
 .about_text_h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    margin: 2.5rem 0 1rem;
     color: rgb(255, 255, 255);
 }
 
 .about_text_p {
-    font-size: 1.4rem;
+    font-size: 1rem;
     text-align: justify;
 }
 
@@ -63,7 +64,7 @@
 
 .our_all_card_p {
     text-align: justify;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 
@@ -74,8 +75,15 @@
 }
 
 .Image {
-    width: 250px;
-    height: 250px;
+    width: 630px;
+    height: 350px;
+    margin: auto;
+}
+
+.div{
+    height: 2ch;
+    background-image: linear-gradient(to right, #010914, #0b2129, #143736, #2e4d3c, #55603f);
+    z-index: -1000;
 }
 
 @media (min-width: 300px) and (max-width: 430px) {

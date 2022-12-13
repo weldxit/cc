@@ -1,32 +1,40 @@
 .contact {
-    padding: 0 10rem;
+    padding: 3rem 10rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: black;
     text-align: center;
+    background-image: url('/map.jpeg');
+    background-size: cover;
+    
 }
 
 .texts {
-    padding-top: 5rem;
+    padding-top: 0;
 }
 
 .texts_h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    color: rgb(88, 57, 10);
 }
 
 .texts_p {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     text-align: justify;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.37);
+    border-radius: 20px;
+    padding: 20px;
 }
 
 .address {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     height: auto;
-    width: 750px;
+    width: 1000px;
     margin: 2rem 0;
 }
 
@@ -34,10 +42,18 @@
     display: flex;
     text-align: justify;
     justify-content: space-around;
-    width: 350px;
+    align-items: center;
+    width: 480px;
     border: 1px solid #aaa;
+    background-color: rgb(255, 255, 255);
     padding: 20px;
     border-radius: 20px;
+}
+
+.div{
+    height: 2ch;
+    background-image: linear-gradient(to right, #010914, #0b2129, #143736, #2e4d3c, #55603f);
+    z-index: 1000;
 }
 
 @media (min-width: 300px) and (max-width: 430px) {
@@ -105,6 +121,13 @@
 @media (min-width: 750px) and (max-width: 920px) {
     .contact {
         padding: 0 5rem;
+    }
+    .address {
+        flex-direction: column;
+        width: auto;
+    }
+    .address_add{
+        margin-top: 30px;
     }
 }
 
