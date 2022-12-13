@@ -9,7 +9,7 @@ import AllServices from "../components/AllServices";
 
 export default function Home() {
   return (
-    <Layout>
+   <>
       <Head>
         <meta charSet="utf-8" />
         <title>
@@ -50,7 +50,9 @@ export default function Home() {
         <meta property="og:url" content="https://chasicare.com/" />
         <meta
           property="og:image"
+
           content='https://www.chasicare.com/_next/image?url=%2FChasicare_OG.jpg&w=640&q=75'
+
         />
         <meta property="og:site_name" content="Chasicare" />
         <meta
@@ -111,6 +113,7 @@ export default function Home() {
       <div>
         <Form />
       </div>
-    </Layout>
+      </>
+
   );
 }

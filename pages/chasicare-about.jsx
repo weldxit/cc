@@ -7,7 +7,7 @@ import Script from 'next/script'
 import Form from "./Form";
 export default function About() {
   return (
-    <Layout>
+    <>
       <Head key={'about'}>
         <meta charSet="utf-8" />
         <title>About Chasicare - Organic Farming and Biofloc Training in Odisha</title>
@@ -198,6 +198,6 @@ export default function About() {
       <div>
         <Form />
       </div>
-    </Layout>
+    </>
   );
 }

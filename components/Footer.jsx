@@ -34,10 +34,10 @@ const Footer = () => {
           <div>
             <p style={{marginLeft: "12px"}}>CHASICARE</p>
             <ul className={style.ul}>
-              <li><Link href={'/About'} className={style.li}><span>About Us</span></Link></li>
-              <li><Link href={'/Gallery'} className={style.li}><span>Gallery</span></Link></li>
-              <li><Link href={'/Sitemap'} className={style.li}><span>Sitemap</span></Link></li>
-              <li><Link href={'/Blog'} className={style.li}><span>Blog</span></Link></li>
+              <li><Link href={'/chasicare-about'} className={style.li}><span>About Us</span></Link></li>
+              <li><Link href={'/chasicare-biofloc-gallery'} className={style.li}><span>Gallery</span></Link></li>
+              <li><Link href={'/chasicare-site-map'} className={style.li}><span>Sitemap</span></Link></li>
+              <li><Link href={'/chasicare-biofloc-blog'} className={style.li}><span>Blog</span></Link></li>
             </ul>
           </div>
         </div>

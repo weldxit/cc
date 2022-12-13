@@ -7,7 +7,7 @@ import Script from "next/script";
 import Form from "./Form";
 const Service = () => {
   return (
-    <Layout>
+    <>
       <Head key={'service'}>
       <meta charSet="utf-8"/>
 <title>Chasicare Services - Biofloc Farming, Dairy Farming & Organic Farming in Odisha</title>
@@ -289,7 +289,7 @@ const Service = () => {
       <div>
         <Form/>
       </div>
-    </Layout>
+    </>
   );
 };
 

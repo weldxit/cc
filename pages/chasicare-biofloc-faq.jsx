@@ -8,7 +8,7 @@ import Form from "./Form";
 
 const FAQ = () => {
     return (
-        <Layout>
+        <>
             <Head>
                 <title>Frequently Asked Questions (FAQ) for Organic Farming – Chasicare</title>
             </Head>
@@ -97,7 +97,7 @@ const FAQ = () => {
             <div>
                 <Form />
             </div>
-        </Layout>
+        </>
     )
 }
 

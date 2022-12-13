@@ -1,21 +1,22 @@
 import React from "react";
+import Form from "./Form";
 import Layout from "./Layout";
-import Image from "next/image";
-import style from "../styles/gallery.module.css";
+import style from '../styles/contact.module.css'
 import Head from "next/head";
 import Script from "next/script";
-import Form from "./Form";
-export default function Gallery() {
+import Link from "next/link";
+import Image from "next/image";
+
+export default function Contact() {
   return (
-    <Layout>
-      <Head key={'gallery'}>
-        <meta charSet="utf-8" />
-        <title>Biofloc Fish Farming Galleries by Chasicare | Organic Farming in Odisha</title>
+    <>
+      <Head key={'contact'}>
+        <title>Chasicare Address in Bhubaneswar, Odisha | Call: 097770 28888</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="Biofloc fish farming galleries by Chasicare in Odisha. Explore organic farming pictures in Odisha including dairy farming, poultry farming, goat faring etc." />
-        <meta name="keywords" content="biofloc fish farming, biofloc projects, organic farming in Odisha, dairy farming, goat farming, poultry farming, aquaponics, Chasicare projects" />
-        <link rel="canonical" href="https://chasicare.com/biofloc-gallery/" />
+        <meta name="description" content="Contact to CHASICRE biofloc team in Bhubaneswar by filling out the below form or call us at: 097770 28888." />
+        <meta name="keywords" content="Chasicare, Biofloc fish, Biofloc farming, Chasicare address, Biofloc training, Odisha" />
+        <link rel="canonical" href="https://chasicare.com/contact-us/" />
         <meta name="robots" content="index, follow" />
         <meta name="google-site-verification" content="MevSFHM1V4DhgIRgi52UBY8C4NQPNRIxg8WBRngWO1w" />
         <meta name="copyright" content="Chasicare" />
@@ -26,9 +27,9 @@ export default function Gallery() {
         <meta name="rating" content="General" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Biofloc Fish Farming Galleries by Chasicare | Organic Farming in Odisha" />
-        <meta property="og:description" content="Biofloc fish farming galleries by Chasicare in Odisha. Explore organic farming pictures in Odisha including dairy farming, poultry farming, goat faring etc." />
-        <meta property="og:url" content="https://chasicare.com/biofloc-gallery/" />
+        <meta property="og:title" content="Chasicare Address in Bhubaneswar, Odisha | Call: 097770 28888" />
+        <meta property="og:description" content="Contact to CHASICRE biofloc team in Bhubaneswar by filling out the below form or call us at: 097770 28888." />
+        <meta property="og:url" content="https://chasicare.com/contact-us/" />
         <meta property="og:image" content="https://chasicare.com/img/chasicare/newpics/Chasicare_biofloc_odisha.jpg" />
         <meta property="og:site_name" content="Chasicare" />
         <meta property="article:modified_time" content="2022-12-10T16:01:16+00:00" />
@@ -48,6 +49,7 @@ export default function Gallery() {
         <meta name="og:postal-code" content="751021" />
         <meta name="og:country-name" content="India" />
 
+
         <Script async src="https://www.googletagmanager.com/gtag/js?id=G-0P9YDRCX4Y"></Script>
         {/* <Script>
   window.dataLayer = window.dataLayer || [];
@@ -64,21 +66,33 @@ export default function Gallery() {
         <link href="/img/service_icon/Chasicare-fav.png" rel="apple-touch-icon" />
 
 
+
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
+
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+
         <link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet" />
 
         <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
+
+
         <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+
         <link href="lib/animate/animate.min.css" rel="stylesheet" />
+
         <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet" />
+
         <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
         <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
 
+
         <link href="css/style.css" rel="stylesheet" />
+
         <Script type="application/ld+json">
           {{
             "@context": "https://schema.org",
@@ -90,19 +104,19 @@ export default function Gallery() {
             "telephone": "+91 9777028888",
             "priceRange": "1"
           }},
-          "address": {{
+          "address":{{
             "@type": "PostalAddress",
             "streetAddress": "Plot No: 309/1801P, Niladri Vihar",
             "addressLocality": "Bhubaneswar",
             "postalCode": "751021",
             "addressCountry": "IN"
           }},
-          "geo": {{
+          "geo":{{
             "@type": "GeoCoordinates",
             "latitude": 20.296059,
             "longitude": 85.824539
           }},
-          "openingHoursSpecification": {{
+          "openingHoursSpecification":{{
             "@type": "OpeningHoursSpecification",
             "dayOfWeek": [
               "Monday",
@@ -116,52 +130,42 @@ export default function Gallery() {
             "opens": "00:00",
             "closes": "23:59"
           }
+
           }
         </Script>
 
       </Head>
-      <div className={style.main}>
-        <div className={style.container}>
-          <div className={style.gallery_text}>
-            <h1 className={style.gallery_h1}>Chasicare Project Gallery</h1>
-            <p className={style.p}>The <b>CHASICARE</b> is pioneer in designing and developing the Biofloc fish farming projects and other organic farming projects in Odisha. Explore our completed Biofloc fish farming projects and organic farming projects insights here.</p>
+      <div>
+        <div className={style.contact}>
+          <div className={style.texts}>
+            <h1 className={style.texts_h1}>Contact Us</h1>
+            <p className={style.texts_p}>
+              Contact to Chasicare Expert team by filling out the form below and
+              our expert team will reach you soon. As a farmer’s centric
+              organisation, the <b>CHASICARE</b> in Odisha is committed to help farmers
+              for setting up their organic farm, biofloc fish farm, dairy farm,
+              goatery farm, aquaponics and more.
+            </p>
           </div>
-          <div className={style.gallery}>
-            <div className={style.g_image}>
-              <Image src={"/Chasicare_Biofloc_Projects10.jpg"} width={271} height={300} alt="Biofloc by Chasicare" className={style.image1} />
+          <div className={style.address}>
+            <div className={style.address_add}>
+              <Image src={'/direction.png'} width={50} height={50} alt="Chasicare Odisha" />
+              <div><b>Plot No:</b> 309/1801P, Niladri Vihar,<br/>Bhubaneswar, Odisha&nbsp;<b>Pin:</b> 751021</div>
             </div>
-            <div className={style.g_image}>
-              <Image src={"/Chasicare_Biofloc_Projects19.jpg"} width={271} height={300} alt="Biofloc by Chasicare" className={style.image1} />
-            </div>
-            <div className={style.g_image}>
-              <Image src={"/Chasicare_Biofloc_Projects13.jpg"} width={542} height={300} alt="Biofloc by Chasicare" className={style.image2} />
-            </div>
-            <div className={style.g_image}>
-              <Image src={"/Chasicare_Biofloc_Projects11.jpg"} width={542} height={300} alt="Biofloc by Chasicare" className={style.image2} />
-            </div>
-            <div className={style.g_image}>
-              <Image src={"/Chasicare_Biofloc_Projects33.jpg"} width={271} height={300} alt="Biofloc by Chasicare" className={style.image1} />
-            </div>
-            <div className={style.g_image}>
-              <Image src={"/Chasicare_Biofloc_Projects5.jpg"} width={271} height={300} alt="Biofloc by Chasicare" className={style.image1} />
-            </div>
-            <div className={style.g_image}>
-              <Image src={"/Chasicare_Biofloc_Projects34.jpg"} width={271} height={300} alt="Biofloc by Chasicare" className={style.image1} />
-            </div>
-            <div className={style.g_image}>
-              <Image src={"/Chasicare_Biofloc_Projects17.jpg"} width={271} height={300} alt="Biofloc by Chasicare" className={style.image1} />
-            </div>
-            <div className={style.g_image}>
-              <Image src={"/Chasicare_Biofloc_Projects9.jpg"} width={542} height={300} alt="Biofloc by Chasicare" className={style.image2} />
+            <div className={style.address_add}>
+            <Image src={'/contact.png'} width={50} height={50} alt="Chasicare Odisha" />
+              <div style={{marginLeft: "1ch"}}>
+              <span><b>Phone:&nbsp;&nbsp;</b></span>
+              <Link href={'tel: +91 9777028888'}>+91 9777028888</Link><br />
+              <span><b>Email:&nbsp;&nbsp;</b></span>
+              <Link href={'mailto:chasimitraindia@gmail.com'}>chasimitraindia@gmail.com</Link>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div className={style.div}></div>
-      <div>
+        <div className={style.div}></div>
         <Form />
       </div>
-    </Layout>
+    </>
   );
 }
-
