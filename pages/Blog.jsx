@@ -13,7 +13,7 @@ const Blog = () => {
             </Head>
             <div className={style.FAQarea}>
                 <div className={style.FAQimage}>
-                    <Image src={'/blog.png'} width={550} height={350} alt="cahsicare Odisha" className={style.Image} />
+                    <Image src={'/Blog.png'} width={550} height={350} alt="cahsicare Odisha" className={style.Image} />
                 </div>
                 <div className={style.FAQ}>
                     <div className={style.head}>
