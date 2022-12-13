@@ -1,7 +1,7 @@
 .FAQarea {
     background-color: #fff;
     display: flex;
-    padding: 4rem 0;
+    padding: 3rem 0;
 }
 
 .FAQ {
@@ -32,6 +32,7 @@
 .H{
     color: #000000;
     padding-bottom: 20px;
+    font-size: 2rem;
 }
 
 .P {
