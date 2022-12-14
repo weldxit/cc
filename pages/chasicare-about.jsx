@@ -29,7 +29,7 @@ export default function About() {
         <meta property="og:title" content="About Chasicare - Organic Farming and Biofloc Training in Odisha" />
         <meta property="og:description" content="Chasicare provides organic farming and Biofloc fish farming training and facilities to Odisha farmers with new technologies." />
         <meta property="og:url" content="https://chasicare.com/about-us/" />
-        <meta property="og:image" content="https://chasicare.com/img/chasicare/newpics/Chasicare_biofloc_odisha.jpg" />
+        <meta property="og:image" content='https://www.chasicare.com/_next/image?url=%2FChasicare_OG.jpg&w=640&q=75' />
         <meta property="og:site_name" content="Chasicare" />
         <meta property="article:modified_time" content="2022-12-10T16:01:16+00:00" />
 

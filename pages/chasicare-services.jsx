@@ -29,7 +29,7 @@ const Service = () => {
 <meta property="og:title" content="Chasicare Services - Biofloc Farming, Dairy Farming & Organic Farming in Odisha" />
 <meta property="og:description" content="Chasicare provides organic farming in Odisha including biofloc farming, dairy farming, poultry farming, aquaponics, goat farming etc." />
 <meta property="og:url" content="https://chasicare.com/farming-services/" />
-<meta property="og:image" content="https://chasicare.com/img/chasicare/newpics/Chasicare_biofloc_odisha.jpg" />
+<meta property="og:image" content='https://www.chasicare.com/_next/image?url=%2FChasicare_OG.jpg&w=640&q=75' />
 <meta property="og:site_name" content="Chasicare" />
 <meta property="article:modified_time" content="2022-12-10T16:01:16+00:00" />
 

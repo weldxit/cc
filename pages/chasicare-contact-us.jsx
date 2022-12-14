@@ -30,7 +30,7 @@ export default function Contact() {
         <meta property="og:title" content="Chasicare Address in Bhubaneswar, Odisha | Call: 097770 28888" />
         <meta property="og:description" content="Contact to CHASICRE biofloc team in Bhubaneswar by filling out the below form or call us at: 097770 28888." />
         <meta property="og:url" content="https://chasicare.com/contact-us/" />
-        <meta property="og:image" content="https://chasicare.com/img/chasicare/newpics/Chasicare_biofloc_odisha.jpg" />
+        <meta property="og:image" content='https://www.chasicare.com/_next/image?url=%2FChasicare_OG.jpg&w=640&q=75' />
         <meta property="og:site_name" content="Chasicare" />
         <meta property="article:modified_time" content="2022-12-10T16:01:16+00:00" />
 
@@ -74,26 +74,7 @@ export default function Contact() {
 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
 
-        <link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet" />
-
-        <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-
-
-
-        <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
-
-        <link href="lib/animate/animate.min.css" rel="stylesheet" />
-
-        <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet" />
-
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
-
-        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
-
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
-
-
-        <link href="css/style.css" rel="stylesheet" />
+      
 
         <Script type="application/ld+json">
           {{
