@@ -12,7 +12,7 @@ const Blog = () => {
     <>
       <Head>
         <title>Biofloc Fish Farming in Odisha Brings Huge Earning Opportunities - Chasicare</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        {/* <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Biofloc fish farming in Odisha brings huge earning opportunities for youth and gives employment facilities. Explore Chasicare Blog for more details." />
         <meta name="keywords" content="Chasicare, Biofloc fish farming, organic farming Odisha, Biofloc farming Odisha, Biofloc training, Chasicare Blog" />
         <link rel="canonical" href="https://chasicare.com/biofloc-fish-farming-in-odisha-chasicare-blog/ " />
@@ -45,15 +45,13 @@ const Blog = () => {
           strategy="afterInteractive"
         />
         <Script id="google-analytics" strategy="afterInteractive">
-          {
-            `
+          {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){window.dataLayer.push(arguments);}
           gtag('js', new Date());
 
           gtag('config', 'G-0P9YDRCX4Y');
-          `
-          }
+          `}
         </Script>
         <Script type="application/ld+json">
           {{
@@ -93,7 +91,7 @@ const Blog = () => {
             "closes": "23:59"
           }
           }
-        </Script>
+        </Script> */}
 
 
       </Head>
