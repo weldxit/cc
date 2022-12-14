@@ -15,7 +15,7 @@ import {
   } from "react-share";
 
 const Social = () => {
-    const shareUrl = "https://www.chasicare.com/Blog"
+    const shareUrl = "https://www.chasicare.com/biofloc-fish-farming-in-odisha-chasicare-blog/"
     return (
         <div>
             <FacebookShareButton url={shareUrl}>

@@ -50,13 +50,19 @@ export default function About() {
 
 
         <Script async src="https://www.googletagmanager.com/gtag/js?id=G-0P9YDRCX4Y"></Script>
-        {/* <Script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments)}
-  gtag('js', new Date());
+        <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-0P9YDRCX4Y"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
 
-  gtag('config', 'G-0P9YDRCX4Y');
-</Script> */}
+          gtag('config', 'G-0P9YDRCX4Y');
+        `}
+      </Script>
         <link rel="icon" href="/img/service_icon/Chasicare-fav.png" type="image/x-icon" />
 
 
