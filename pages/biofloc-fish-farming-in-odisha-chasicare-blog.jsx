@@ -110,7 +110,7 @@ const Blog = () => {
             <h1 className={style.H}>Biofloc Fish Farming in Odisha Brings Huge Earning Opportunities</h1>
             <p className={style.P}>Being one of the best availability methods in Today&#39;s generation, Biofloc Fish farming is the
               need of the hour with high productivity and sustainability. With an aim to enhancing the
-              employment opportunities in the hands of India upcoming youth, <Link href={'/Services/#bfloc'}><b>Biofloc Fish Farming</b></Link>&nbsp;
+              employment opportunities in the hands of India upcoming youth, <Link href={'/chasicare-services/#bfloc'}><b>Biofloc Fish Farming</b></Link>&nbsp;
               production is a technology where one can produces more fishes significantly than traditional
               form. It will improve the assistance for their means of subsistence with a view to assisting
               farmers and the younger generations. Since a lot of fish are produced in a small amount of
@@ -128,7 +128,7 @@ const Blog = () => {
             <h5>Investment Required for Fish Farming</h5>
             <p>In order to make an investment in fish farming, a single biofloc tank is a must with a diameter of
               4.5m. The cost of a single tank will be ranging in between 35,000 to 40,000. The more you make
-              the installation of tanks, the better you get profits in future. <Link href={'/Services/#bfloc'}>Biofloc Fish Farming</Link> is cost
+              the installation of tanks, the better you get profits in future. <Link href={'/chasicare-services/#bfloc'}>Biofloc Fish Farming</Link> is cost
               effective as it reduces the prices of fish feeding and disposal of waste if you make use of biofish
               technique.</p><br />
 
@@ -137,7 +137,7 @@ const Blog = () => {
               produced in artificial tanks. In places like Odisha, such systems can be installed in terraces and
               backwards where is fish farmer can make profit significantly by selling the fishes, as it is a
               distinct advantage of fish farming.&nbsp;
-              <Link href={'/Services/#bfloc'}>Biofloc Fish Farming</Link> will be of great help to the unemployed youths and will support the
+              <Link href={'/chasicare-services/#bfloc'}>Biofloc Fish Farming</Link> will be of great help to the unemployed youths and will support the
               entrepreneurs in giving them a means of subsistence as many schemes are implemented today.
               The latest pandemic epidemic caused job losses and unemployment for a large number of
               people.</p><br />
@@ -148,7 +148,7 @@ const Blog = () => {
               which benefits from minimum to zero water exchange to continuous recycle of nutrients. <br /><br />
               The biofloc fish farming in Odisha is made possible by CHASICARE. Regardless of India&#39;s many
               agricultural sectors, many individuals have faith in <b>CHASICARE</b> in Odisha&#39;s capacity to change
-              the dynamics of <Link href={'/Services/#bfloc'}>Biofloc Fish Farming</Link>. This industry offers all the resources that help fish farmers
+              the dynamics of <Link href={'/chasicare-services/#bfloc'}>Biofloc Fish Farming</Link>. This industry offers all the resources that help fish farmers
               become more stable in their business. The expert team in the chasi care unit substantially aids
               the farmers and offers assistance and support in their work in order to reach the growing fish
               market demand in India.</p><br />
@@ -157,7 +157,7 @@ const Blog = () => {
             <p>This developed technique has brought a change in the perception of the farmers. with the
               addition of materials like plants, aquatic components and micro filters gives the tank an exterior
               look which automatically becomes eco-friendly for the fishes. The state government has also
-              given its nod to make <Link href={'/Services/#bfloc'}>Biofloc Fish Farming</Link> a future prospect for upcoming people.</p><br />
+              given its nod to make <Link href={'/chasicare-services/#bfloc'}>Biofloc Fish Farming</Link> a future prospect for upcoming people.</p><br />
 
             <h5>Biofloc Fish Farming Training and Subsidies Facilities</h5>
             <p>Since the central and state government are given their nod for integration of multiple schemes

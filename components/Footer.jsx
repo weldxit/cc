@@ -16,12 +16,12 @@ const Footer = () => {
           <div>
             <p>SERVICES</p>
             <ul className={style.ul}>
-              <li><Link href={'/Services/#bfloc'} className={style.li}><span>Biofloc Farming</span></Link></li>
-              <li><Link href={'/Services/#organic'} className={style.li}><span>Organic Farming</span></Link></li>
-              <li><Link href={'/Services/#dairy'} className={style.li}><span>Dairy Farming</span></Link></li>
-              <li><Link href={'/Services/#goat'} className={style.li}><span>Goat Farming</span></Link></li>
-              <li><Link href={'/Services/#aqua'} className={style.li}><span>Aquaponics</span></Link></li>
-              <li><Link href={'/Services/#poultry'} className={style.li}><span>Poultry Farming</span></Link></li>
+              <li><Link href={'/chasicare-services/#bfloc'} className={style.li}><span>Biofloc Farming</span></Link></li>
+              <li><Link href={'/chasicare-services/#organic'} className={style.li}><span>Organic Farming</span></Link></li>
+              <li><Link href={'/chasicare-services/#dairy'} className={style.li}><span>Dairy Farming</span></Link></li>
+              <li><Link href={'/chasicare-services/#goat'} className={style.li}><span>Goat Farming</span></Link></li>
+              <li><Link href={'/chasicare-services/#aqua'} className={style.li}><span>Aquaponics</span></Link></li>
+              <li><Link href={'/chasicare-services/#poultry'} className={style.li}><span>Poultry Farming</span></Link></li>
             </ul>
           </div>
           <div>
