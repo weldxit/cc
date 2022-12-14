@@ -12,36 +12,43 @@ const Blog = () => {
     <>
       <Head>
         <title>Biofloc Fish Farming in Odisha Brings Huge Earning Opportunities - Chasicare</title>
-        {/* <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Biofloc fish farming in Odisha brings huge earning opportunities for youth and gives employment facilities. Explore Chasicare Blog for more details." />
         <meta name="keywords" content="Chasicare, Biofloc fish farming, organic farming Odisha, Biofloc farming Odisha, Biofloc training, Chasicare Blog" />
-        <link rel="canonical" href="https://chasicare.com/biofloc-fish-farming-in-odisha-chasicare-blog/ " />
+        <link rel="canonical" href="https://www.chasicare.com/biofloc-fish-farming-in-odisha-chasicare-blog" />
         <meta name="robots" content="index, follow" />
-        <meta name="google-site-verification" content="MevSFHM1V4DhgIRgi52UBY8C4NQPNRIxg8WBRngWO1w" /><meta name="copyright" content="Chasicare" />
-        <meta name="owner" content="Chasicare" /><meta name="category" content="Agriculture and Farming" />
+        <meta name="google-site-verification" content="MevSFHM1V4DhgIRgi52UBY8C4NQPNRIxg8WBRngWO1w" />
+        <meta name="copyright" content="Chasicare" />
+        <meta name="owner" content="Chasicare" />
+        <meta name="category" content="Agriculture and Farming" />
         <meta name="coverage" content="India" />
         <meta name="distribution" content="global" />
         <meta name="rating" content="General" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Biofloc Fish Farming in Odisha Brings Huge Earning Opportunities – Chasicare Blog" />
+        <meta property="og:title" content="Biofloc Fish Farming in Odisha Brings Huge Earning Opportunities - Chasicare" />
         <meta property="og:description" content="Biofloc fish farming in Odisha brings huge earning opportunities for youth and gives employment facilities. Explore Chasicare Blog for more details." />
-        <meta property="og:url" content="https://chasicare.com/biofloc-fish-farming-in-odisha-chasicare-blog/" />
-        <meta property="og:image" content="https://www.chasicare.com/_next/image?url=%2FChasicare_OG.jpg&amp;w=640&amp;q=75" /><meta property="og:site_name" content="Chasicare" />
-        <meta property="article:modified_time" content="2022-08-10T16:01:16+00:00" /><meta name="twitter:card" content="summary" />
+        <meta property="og:url" content="https://www.chasicare.com/biofloc-fish-farming-in-odisha-chasicare-blog" />
+        <meta property="og:image" content='https://www.chasicare.com/_next/image?url=%2FChasicare_OG.jpg&w=640&q=75' />
+        <meta property="og:site_name" content="Chasicare" />
+        <meta property="article:modified_time" content="2022-12-10T16:01:16+00:00" />
+
+        <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@chasicare" />
         <meta name="twitter:label1" content="Est. reading time" />
         <meta name="twitter:data1" content="9 minute" />
-        <meta name="fb:page_id" content="https://www.facebook.com/ChasiCareOdisha/" /><meta name="og:email" content="chasimitraindia@gmail.com" />
+        <meta name="fb:page_id" content="https://www.facebook.com/ChasiCareOdisha/" />
+        <meta name="og:email" content="chasimitraindia@gmail.com" />
         <meta name="og:phone_number" content="+91 9777028888" />
-        <meta name="og:latitude" content="20.296059" /><meta name="og:longitude" content="85.824539" />
-        <meta name="og:street-address" content="Plot No: 309/1801P, Niladri Vihar" /><meta name="og:locality" content="Bhubaneswar" />
+        <meta name="og:latitude" content="20.296059" />
+        <meta name="og:longitude" content="85.824539" />
+        <meta name="og:street-address" content="Plot No: 309/1801P, Niladri Vihar" />
+        <meta name="og:locality" content="Bhubaneswar" />
         <meta name="og:region" content="Odisha" />
         <meta name="og:postal-code" content="751021" />
         <meta name="og:country-name" content="India" />
-        <meta name="next-head-count" content="36" /><link rel="preload" href="/_next/static/css/413cd7e2b3493662.css" as="style" /><link rel="stylesheet" href="/_next/static/css/413cd7e2b3493662.css" data-n-g="" /><link rel="preload" href="/_next/static/css/ee9f59d8ce9d9862.css" as="style" /><link rel="stylesheet" href="/_next/static/css/ee9f59d8ce9d9862.css" data-n-p="" /><noscript data-n-css=""></noscript><script defer="" nomodule="" src="/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"></script><script src="/_next/static/chunks/webpack-ee7e63bc15b31913.js" defer=""></script><script src="/_next/static/chunks/framework-3b5a00d5d7e8d93b.js" defer=""></script><script src="/_next/static/chunks/main-50de763069eba4b2.js" defer=""></script><script src="/_next/static/chunks/pages/_app-6e95de486e303eab.js" defer=""></script><script src="/_next/static/chunks/2cca2479-66b5fec6944298fc.js" defer=""></script><script src="/_next/static/chunks/780-0425372e49f9bc79.js" defer=""></script><script src="/_next/static/chunks/461-826b1249f40c5d97.js" defer=""></script><script src="/_next/static/chunks/864-2cca717bec4a6bdc.js" defer=""></script><script src="/_next/static/chunks/pages/index-83fbe8ceabf84807.js" defer=""></script><script src="/_next/static/ZYYcxuqvGhDGQC2qYtiQ8/_buildManifest.js" defer=""></script><script src="/_next/static/ZYYcxuqvGhDGQC2qYtiQ8/_ssgManifest.js" defer=""></script>
+
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-0P9YDRCX4Y"
+          src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"
           strategy="afterInteractive"
         />
         <Script id="google-analytics" strategy="afterInteractive">
@@ -50,8 +57,8 @@ const Blog = () => {
           function gtag(){window.dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', 'G-0P9YDRCX4Y');
-          `}
+          gtag('config', 'GA_MEASUREMENT_ID');
+        `}
         </Script>
         <Script type="application/ld+json">
           {{
@@ -62,36 +69,35 @@ const Blog = () => {
             "@id": "https://chasicare.com/",
             "url": "https://chasicare.com/",
             "telephone": "+91 9777028888",
-            "priceRange": "1"
-          }},
-          "address": {{
-            "@type": "PostalAddress",
-            "streetAddress": "Plot No: 309/1801P, Niladri Vihar",
-            "addressLocality": "Bhubaneswar",
-            "postalCode": "751021",
-            "addressCountry": "IN"
-          }},
-          "geo": {{
-            "@type": "GeoCoordinates",
-            "latitude": 20.296059,
-            "longitude": 85.824539
-          }},
-          "openingHoursSpecification": {{
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday",
-              "Friday",
-              "Saturday",
-              "Sunday"
-            ],
-            "opens": "00:00",
-            "closes": "23:59"
-          }
-          }
-        </Script> */}
+            "priceRange": "1",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Plot No: 309/1801P, Niladri Vihar",
+              "addressLocality": "Bhubaneswar",
+              "postalCode": "751021",
+              "addressCountry": "IN"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 20.296059,
+              "longitude": 85.824539
+            },
+            "openingHoursSpecification": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+              ],
+              "opens": "00:00",
+              "closes": "23:59"
+            }
+          }}
+        </Script>
 
 
       </Head>
