@@ -30,6 +30,8 @@ export default function Gallery() {
         <meta property="og:description" content="Biofloc fish farming galleries by Chasicare in Odisha. Explore organic farming pictures in Odisha including dairy farming, poultry farming, goat faring etc." />
         <meta property="og:url" content="https://chasicare.com/biofloc-gallery/" />
         <meta property="og:image" content='https://www.chasicare.com/_next/image?url=%2FChasicare_OG.jpg&w=640&q=75' />
+        <meta property="og:image:width" content='1200'/>
+        <meta property="og:image:height" content='630'/>
         <meta property="og:site_name" content="Chasicare" />
         <meta property="article:modified_time" content="2022-12-10T16:01:16+00:00" />
 
