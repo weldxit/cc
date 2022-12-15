@@ -55,8 +55,8 @@ export default function Home() {
 
         />
 
-        <meta property="og:image:width" content='1200'/>
-        <meta property="og:image:height" content='630'/>
+        <meta property="og:image:width" content='640'/>
+        <meta property="og:image:height" content='75'/>
         <meta property="og:site_name" content="Chasicare" />
         <meta
           property="article:modified_time"

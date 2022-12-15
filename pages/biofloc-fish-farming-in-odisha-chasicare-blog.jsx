@@ -29,8 +29,8 @@ const Blog = () => {
         <meta property="og:description" content="Biofloc fish farming in Odisha brings huge earning opportunities for youth and gives employment facilities. Explore Chasicare Blog for more details." />
         <meta property="og:url" content="https://www.chasicare.com/biofloc-fish-farming-in-odisha-chasicare-blog" />
         <meta property="og:image" content='https://www.chasicare.com/_next/image?url=%2FChasicare_OG.jpg&w=640&q=75' />
-        <meta property="og:image:width" content='1200'/>
-        <meta property="og:image:height" content='630'/>
+        <meta property="og:image:width" content='640'/>
+        <meta property="og:image:height" content='75'/>
         <meta property="og:site_name" content="Chasicare" />
         <meta property="article:modified_time" content="2022-12-10T16:01:16+00:00" />
 
