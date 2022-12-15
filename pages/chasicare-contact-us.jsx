@@ -60,12 +60,7 @@ export default function Contact() {
           gtag('config', 'G-0P9YDRCX4Y');
         `}
       </Script>
-        <link rel="icon" href="/img/service_icon/Chasicare-fav.png" type="image/x-icon" />
-
-
-        <link href="/img/service_icon/Chasicare-fav.png" rel="icon" />
-
-        <link href="/img/service_icon/Chasicare-fav.png" rel="apple-touch-icon" />
+        
 
 
 

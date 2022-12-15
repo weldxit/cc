@@ -5,12 +5,64 @@ import style from "../styles/FAQ.module.css";
 import Image from 'next/image';
 import Head from "next/head";
 import Form from "./Form";
+import Script from 'next/script'
 
 const FAQ = () => {
     return (
         <>
             <Head>
                 <title>Frequently Asked Questions (FAQ) for Organic Farming – Chasicare</title>
+                <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-0P9YDRCX4Y"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-0P9YDRCX4Y');
+        `}
+        </Script>
+        <Script type="application/ld+json">
+          {{
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Chasicare",
+            "image": "https://chasicare.com/img/chasicare/whitclour.png",
+            "@id": "https://chasicare.com/",
+            "url": "https://chasicare.com/",
+            "telephone": "+91 9777028888",
+            "priceRange": "1",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Plot No: 309/1801P, Niladri Vihar",
+              "addressLocality": "Bhubaneswar",
+              "postalCode": "751021",
+              "addressCountry": "IN"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 20.296059,
+              "longitude": 85.824539
+            },
+            "openingHoursSpecification": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+              ],
+              "opens": "00:00",
+              "closes": "23:59"
+            }
+          }}
+        </Script>
             </Head>
             <div className={style.FAQarea}>
                 <div className={style.FAQimage}>
