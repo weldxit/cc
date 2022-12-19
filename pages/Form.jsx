@@ -5,7 +5,7 @@ const Form = () => {
   return (
     <div className={style.body}>
       <div className={style.container}>
-        <form action="https://formspree.io/f/meqdkjro" method="POST" className={style.form}>
+        <form action="https://getform.io/f/69f2a79c-941d-4406-a674-485aeebbc02c" method="POST" className={style.form}>
           <p className={style.p}>Contact Us</p>
           <p className={style.ps}>Contact the <b>CHASICARE</b> Expert team by filling out the Form below and our professional team will reach you soon, <b>OR</b> call us at: <b>+91-97770 28888</b> for details.</p>
           <div className={style.p1}>

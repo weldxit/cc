@@ -30,6 +30,8 @@ export default function Gallery() {
         <meta property="og:description" content="Biofloc fish farming galleries by Chasicare in Odisha. Explore organic farming pictures in Odisha including dairy farming, poultry farming, goat faring etc." />
         <meta property="og:url" content="https://chasicare.com/biofloc-gallery/" />
         <meta property="og:image" content='https://www.chasicare.com/_next/image?url=%2FChasicare_OG.jpg&w=640&q=75' />
+        <meta property="og:image:width" content='640'/>
+        <meta property="og:image:height" content='75'/>
         <meta property="og:site_name" content="Chasicare" />
         <meta property="article:modified_time" content="2022-12-10T16:01:16+00:00" />
 
@@ -48,39 +50,27 @@ export default function Gallery() {
         <meta name="og:postal-code" content="751021" />
         <meta name="og:country-name" content="India" />
 
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-0P9YDRCX4Y"></Script>
+
+
+ 
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+     
+
+        
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-0P9YDRCX4Y"
+          strategy="afterInteractive"
+        />
         <Script id="google-analytics" strategy="afterInteractive">
-        {`
+          {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){window.dataLayer.push(arguments);}
           gtag('js', new Date());
 
           gtag('config', 'G-0P9YDRCX4Y');
         `}
-      </Script>
-        <link rel="icon" href="/img/service_icon/Chasicare-fav.png" type="image/x-icon" />
-
-
-        <link href="/img/service_icon/Chasicare-fav.png" rel="icon" />
-
-        <link href="/img/service_icon/Chasicare-fav.png" rel="apple-touch-icon" />
-
-
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-        <link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet" />
-
-        <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-
-        <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
-        <link href="lib/animate/animate.min.css" rel="stylesheet" />
-        <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet" />
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
-        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
-
-        <link href="css/style.css" rel="stylesheet" />
+        </Script>
         <Script type="application/ld+json">
           {{
             "@context": "https://schema.org",

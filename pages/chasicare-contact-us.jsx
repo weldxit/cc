@@ -31,6 +31,8 @@ export default function Contact() {
         <meta property="og:description" content="Contact to CHASICRE biofloc team in Bhubaneswar by filling out the below form or call us at: 097770 28888." />
         <meta property="og:url" content="https://chasicare.com/contact-us/" />
         <meta property="og:image" content='https://www.chasicare.com/_next/image?url=%2FChasicare_OG.jpg&w=640&q=75' />
+        <meta property="og:image:width" content='640'/>
+        <meta property="og:image:height" content='75'/>
         <meta property="og:site_name" content="Chasicare" />
         <meta property="article:modified_time" content="2022-12-10T16:01:16+00:00" />
 
@@ -60,12 +62,7 @@ export default function Contact() {
           gtag('config', 'G-0P9YDRCX4Y');
         `}
       </Script>
-        <link rel="icon" href="/img/service_icon/Chasicare-fav.png" type="image/x-icon" />
-
-
-        <link href="/img/service_icon/Chasicare-fav.png" rel="icon" />
-
-        <link href="/img/service_icon/Chasicare-fav.png" rel="apple-touch-icon" />
+        
 
 
 
