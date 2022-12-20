@@ -38,6 +38,7 @@ const Footer = () => {
               <li><Link href={'/chasicare-biofloc-gallery'} className={style.li}><span>Gallery</span></Link></li>
               <li><Link href={'/chasicare-site-map'} className={style.li}><span>Sitemap</span></Link></li>
               <li><Link href={'/biofloc-fish-farming-in-odisha-chasicare-blog'} className={style.li}><span>Blog</span></Link></li>
+              <li><Link href={'/cahsicare-customer-support'} className={style.li}><span>Customer Support</span></Link></li>
             </ul>
           </div>
         </div>
