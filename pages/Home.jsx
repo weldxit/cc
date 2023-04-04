@@ -109,6 +109,7 @@ export default function Home() {
       <div>
         <MiniAbout />
       </div>
+      <iframe className={style.frame} src="https://www.youtube.com/embed/pqkAVHzoUQE" title="YouTube video player" frameborder="0" allow=" autoplay; clipboard-write; encrypted-media; gyroscope; web-share" allowfullscreen></iframe>
       <div className={style.div}></div>
       <div>
         <Form />

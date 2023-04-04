@@ -48,7 +48,10 @@
     opacity: .4;
     animation: mymove 20s linear infinite;
 }
-
+.frame{
+    width: 1900px;
+    height: 600px;
+}
 .As{
     margin-top: 0rem;
     /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
@@ -91,6 +94,10 @@
         width: 150px;
         height: 150px;
     }
+    .frame{
+        width: 300px;
+        height: 200px;
+    }
 }
 
 @media (min-width: 250px) and (max-width: 290px) {
@@ -112,7 +119,12 @@
     }
 }
 
-@media (min-width: 970px) and (max-width: 1380px) {}
+@media (min-width: 970px) and (max-width: 1380px) {
+    .frame{
+        width: 1200px;
+        height: 500px;
+    }
+}
 
 @media (min-width: 750px) and (max-width: 920px) {}
 
@@ -132,5 +144,9 @@
     .image {
         width: 200px;
         height: 200px;
+    }
+    .frame{
+        width: 400px;
+        height: 250px;
     }
 }
