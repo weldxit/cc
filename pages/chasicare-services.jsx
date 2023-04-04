@@ -15,7 +15,7 @@ const Service = () => {
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>	
 <meta name="description" content="Chasicare provides organic farming in Odisha including biofloc farming, dairy farming, poultry farming, aquaponics, goat farming etc." />
 <meta name="keywords" content="Chasicare services, Biofloc farming, organic farming Odisha, dairy farming, poultry farming, goat farming Odisha, aquaponics farming, biofloc training" />
-<link rel="canonical" href="https://chasicare.com/farming-services/" />
+<link rel="canonical" href="https://chasicare.com/chasicare-services/" />
 <meta name="robots" content="index, follow" />
 <meta name="google-site-verification" content="MevSFHM1V4DhgIRgi52UBY8C4NQPNRIxg8WBRngWO1w" />
 <meta name="copyright"content="Chasicare"/>
@@ -28,8 +28,10 @@ const Service = () => {
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Chasicare Services - Biofloc Farming, Dairy Farming & Organic Farming in Odisha" />
 <meta property="og:description" content="Chasicare provides organic farming in Odisha including biofloc farming, dairy farming, poultry farming, aquaponics, goat farming etc." />
-<meta property="og:url" content="https://chasicare.com/farming-services/" />
-<meta property="og:image" content='https://www.chasicare.com/_next/image?url=%2FChasicare_OG.jpg&w=640&q=75' />
+<meta property="og:url" content="https://chasicare.com/chasicare-services/" />
+<meta property="og:image" content='https://scontent.fbbi5-1.fna.fbcdn.net/v/t39.30808-6/301270525_148348724499134_764705962685863381_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_ohc=4QeyDxY8BLMAX_AyZr4&_nc_ht=scontent.fbbi5-1.fna&oh=00_AfC0-_dU8AlYoFEnQhsy6qYzahg06Lts9cIzFJ3QOD2Pxw&oe=63A080DF' />
+<meta property="og:image:width" content='640'/>
+        <meta property="og:image:height" content='75'/>
 <meta property="og:site_name" content="Chasicare" />
 <meta property="article:modified_time" content="2022-12-10T16:01:16+00:00" />
 
@@ -48,44 +50,24 @@ const Service = () => {
 <meta name="og:postal-code" content="751021"/>
 <meta name="og:country-name" content="India"/>
 
-
-<Script async src="https://www.googletagmanager.com/gtag/js?id=G-0P9YDRCX4Y"></Script>
-{/* <Script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments)}
-  gtag('js', new Date());
-
-  gtag('config', 'G-0P9YDRCX4Y');
-</Script> */}
-	<link rel = "icon" href = "/img/service_icon/Chasicare-fav.png" type = "image/x-icon"/>
-
-	<link href="/img/service_icon/Chasicare-fav.png" rel="icon"/>
-
-	<link href="/img/service_icon/Chasicare-fav.png" rel="apple-touch-icon"/>
-
-	
-
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet"/> 
-	<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
-	<link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet"/>
+<Script async src="https://www.googletagmanager.com/gtag/js?id=G-0P9YDRCX4Y"></Script>
+<Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
 
-	<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>	
+          gtag('config', 'G-0P9YDRCX4Y');
+        `}
+      </Script>
 
-	<link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
-
-	<link href="lib/animate/animate.min.css" rel="stylesheet"/>
-
-	<link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet"/>
-
-	<link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet"/>
-
-	<link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet"/>
-
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
 	
 
-	<link href="css/style.css" rel="stylesheet"/>
+
+
+
 
 <Script type="application/ld+json">
 {{

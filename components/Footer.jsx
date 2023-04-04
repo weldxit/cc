@@ -16,12 +16,12 @@ const Footer = () => {
           <div>
             <p>SERVICES</p>
             <ul className={style.ul}>
-              <li><Link href={'/Services/#bfloc'} className={style.li}><span>Biofloc Farming</span></Link></li>
-              <li><Link href={'/Services/#organic'} className={style.li}><span>Organic Farming</span></Link></li>
-              <li><Link href={'/Services/#dairy'} className={style.li}><span>Dairy Farming</span></Link></li>
-              <li><Link href={'/Services/#goat'} className={style.li}><span>Goat Farming</span></Link></li>
-              <li><Link href={'/Services/#aqua'} className={style.li}><span>Aquaponics</span></Link></li>
-              <li><Link href={'/Services/#poultry'} className={style.li}><span>Poultry Farming</span></Link></li>
+              <li><Link href={'/chasicare-services/#bfloc'} className={style.li}><span>Biofloc Farming</span></Link></li>
+              <li><Link href={'/chasicare-services/#organic'} className={style.li}><span>Organic Farming</span></Link></li>
+              <li><Link href={'/chasicare-services/#dairy'} className={style.li}><span>Dairy Farming</span></Link></li>
+              <li><Link href={'/chasicare-services/#goat'} className={style.li}><span>Goat Farming</span></Link></li>
+              <li><Link href={'/chasicare-services/#aqua'} className={style.li}><span>Aquaponics</span></Link></li>
+              <li><Link href={'/chasicare-services/#poultry'} className={style.li}><span>Poultry Farming</span></Link></li>
             </ul>
           </div>
           <div>
@@ -37,7 +37,8 @@ const Footer = () => {
               <li><Link href={'/chasicare-about'} className={style.li}><span>About Us</span></Link></li>
               <li><Link href={'/chasicare-biofloc-gallery'} className={style.li}><span>Gallery</span></Link></li>
               <li><Link href={'/chasicare-site-map'} className={style.li}><span>Sitemap</span></Link></li>
-              <li><Link href={'/chasicare-biofloc-blog'} className={style.li}><span>Blog</span></Link></li>
+              <li><Link href={'/biofloc-fish-farming-in-odisha-chasicare-blog'} className={style.li}><span>Blog</span></Link></li>
+              <li><Link href={'/cahsicare-customer-support'} className={style.li}><span>Customer Support</span></Link></li>
             </ul>
           </div>
         </div>
